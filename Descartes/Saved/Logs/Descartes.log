@@ -1,0 +1,623 @@
+﻿Log file open, 09/28/18 22:24:02
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Descartes
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.447558
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.282s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 8.1 (), CPU:       Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.28-20.24.03:562][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.28-20.24.03:562][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.28-20.24.03:596][  0]LogHAL: Display: Platform has ~ 6 GB [6322376704 / 8589934592 / 6], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.28-20.24.03:597][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.28-20.24.03:597][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.28-20.24.03:598][  0]LogInit: Computer: DILEGEN
+[2018.09.28-20.24.03:598][  0]LogInit: User: Enrique
+[2018.09.28-20.24.03:598][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.28-20.24.03:598][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2018.09.28-20.24.03:600][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2018.09.28-20.24.03:600][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.28-20.24.03:600][  0]LogMemory: Process Physical Memory: 98.47 MB used, 98.47 MB peak
+[2018.09.28-20.24.03:600][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
+[2018.09.28-20.24.03:600][  0]LogMemory: Physical Memory: 2542.05 MB used,  3487.44 MB free, 6029.49 MB total
+[2018.09.28-20.24.03:600][  0]LogMemory: Virtual Memory: 487.61 MB used,  3487.44 MB free, 134217728.00 MB total
+[2018.09.28-20.24.03:645][  0]LogInit: Using OS detected language (es-ES).
+[2018.09.28-20.24.03:646][  0]LogInit: Using OS detected locale (es-ES).
+[2018.09.28-20.24.03:647][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.09.28-20.24.04:797][  0]LogStreaming: Display: Took  1.152s to InitEngineTextLocalization.
+[2018.09.28-20.24.04:798][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.28-20.24.04:877][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.28-20.24.04:877][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.28-20.24.05:468][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.28-20.24.05:468][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.28-20.24.05:572][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.09.28-20.24.05:573][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.09.28-20.24.05:609][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 610M      ' (Feature Level 11_0)
+[2018.09.28-20.24.05:609][  0]LogD3D11RHI:       1996/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.09.28-20.24.05:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.28-20.24.05:612][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.28-20.24.05:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.09.28-20.24.05:624][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.28-20.24.05:624][  0]LogD3D11RHI:     GPU DeviceId: 0x1058 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.28-20.24.05:624][  0]LogWindows: EnumDisplayDevices:
+[2018.09.28-20.24.05:624][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.09.28-20.24.05:625][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.28-20.24.05:625][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.28-20.24.05:626][  0]LogWindows:    3. 'NVIDIA GeForce 610M      ' (P:0 D:0)
+[2018.09.28-20.24.05:626][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2018.09.28-20.24.05:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 610M      
+[2018.09.28-20.24.05:626][  0]LogD3D11RHI:   Driver Version: 353.84 (internal:10.18.13.5384, unified:353.84)
+[2018.09.28-20.24.05:626][  0]LogD3D11RHI:      Driver Date: 8-7-2015
+[2018.09.28-20.24.05:626][  0]LogRHI: Texture pool is 1397 MB (70% of 1996 MB)
+[2018.09.28-20.24.05:655][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.09.28-20.24.05:655][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2018.09.28-20.24.05:655][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.28-20.24.05:683][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.28-20.24.05:685][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Enrique/Documents/GameJam/Descartes/Intermediate/Shaders/WorkingDirectory/5308/).
+[2018.09.28-20.24.05:685][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/94CB322E4B7DE28A5181B68D065ACE72/'.
+[2018.09.28-20.24.06:454][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.28-20.24.06:498][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.28-20.24.06:538][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.28-20.24.06:582][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.28-20.24.06:632][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.28-20.24.06:673][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.28-20.24.06:716][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.28-20.24.06:761][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.28-20.24.06:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.28-20.24.07:043][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.28-20.24.07:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.28-20.24.07:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.28-20.24.07:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.28-20.24.07:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.28-20.24.07:283][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.28-20.24.07:321][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.28-20.24.07:362][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.28-20.24.07:401][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.28-20.24.07:431][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.28-20.24.07:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.28-20.24.07:569][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.28-20.24.07:569][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.28-20.24.07:569][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.28-20.24.10:209][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.28-20.24.10:411][  0]LogDerivedDataCache: Loaded boot cache 0.20s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Enrique/Documents/GameJam/Descartes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.28-20.24.10:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Enrique/Documents/GameJam/Descartes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.28-20.24.10:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.28-20.24.10:467][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.28-20.24.10:547][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.28-20.24.10:551][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.28-20.24.10:552][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.28-20.24.10:724][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
+[2018.09.28-20.24.11:860][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.28-20.24.12:193][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.28-20.24.12:199][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.28-20.24.12:199][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.28-20.24.12:200][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.28-20.24.12:200][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.28-20.24.12:242][  0]LogNetVersion: Descartes 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3270631910)
+[2018.09.28-20.24.13:477][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.207558 seconds
+[2018.09.28-20.24.13:490][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.28-20.24.13:490][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.28-20.24.13:490][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.28-20.24.15:248][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.28-20.24.15:290][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.28-20.24.15:515][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.28-20.24.15:515][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.28-20.24.15:517][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.28-20.24.15:519][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.28-20.24.15:738][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.28-20.24.15:791][  0]LogOcInput: OculusInput pre-init called
+[2018.09.28-20.24.15:897][  0]LogEngine: Initializing Engine...
+[2018.09.28-20.24.15:899][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.28-20.24.16:364][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.28-20.24.16:383][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.28-20.24.16:436][  0]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.28-20.24.16:461][  0]LogInit: FAudioDevice initialized.
+[2018.09.28-20.24.16:462][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.28-20.24.16:559][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.28-20.24.16:573][  0]LogInit: Texture streaming: Enabled
+[2018.09.28-20.24.16:597][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.28-20.24.16:617][  0]LogInit: Transaction tracking system initialized
+[2018.09.28-20.24.16:652][  0]BlueprintLog: New page: Cargar el editor
+[2018.09.28-20.24.16:971][  0]LocalizationService: Localization service is disabled
+[2018.09.28-20.24.17:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/' took 0.01s
+[2018.09.28-20.24.17:432][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.28-20.24.17:432][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.28-20.24.17:433][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.28-20.24.17:675][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.28-20.24.17:675][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.28-20.24.17:676][  0]LightingResults: New page: Diseñar la iluminación
+[2018.09.28-20.24.17:680][  0]MapCheck: New page: Revisión del mapa
+[2018.09.28-20.24.17:680][  0]LightingResults: New page: Diseñar la iluminación
+[2018.09.28-20.24.18:146][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.28-20.24.18:158][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.28-20.24.18:201][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.28-20.24.18:334][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131,631ms to complete.
+[2018.09.28-20.24.18:334][  0]LogFileHelpers: Loading map 'Template_Default' took 0.659
+[2018.09.28-20.24.18:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-20.24.18:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-20.24.18:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-20.24.18:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-20.24.18:654][  0]LogCollectionManager: Loaded 0 collections in 0.002984 seconds
+[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Saved/Collections/' took 0.01s
+[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/Developers/Enrique/Collections/' took 0.01s
+[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/Collections/' took 0.01s
+[2018.09.28-20.24.18:735][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.09.28-20.24.18:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0392 seconds. Added 2572 classes and 603 folders.
+[2018.09.28-20.24.18:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.28-20.24.19:831][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.28-20.24.19:878][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.09.28-20.24.19:958][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.28-20.24.19:967][  0]LogSlate: Took 0.000597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.28-20.24.20:007][  0]LogSlate: Took 0.013167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.28-20.24.20:324][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2018.09.28-20.24.20:674][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-20.24.20:801][  0]LogSlate: Window 'Tutoriales' being destroyed
+[2018.09.28-20.24.20:841][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.09.28-20.24.20:841][  0]LogLoad: (Engine Initialization) Total time: 20.80 seconds
+[2018.09.28-20.24.20:841][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.28-20.24.20:920][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.28-20.24.29:682][235]LogAssetRegistry: Asset discovery search completed in 18.9818 seconds
+[2018.09.28-20.24.29:687][235]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.09.28-20.24.29:687][235]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000162 seconds (updated 0 objects)
+[2018.09.28-20.24.33:762][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.24.40:085][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.24.56:385][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.28-20.25.00:454][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.25.06:332][460]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.28-20.25.46:470][ 19]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.28-20.25.46:492][ 19]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Background.Background
+[2018.09.28-20.25.46:728][ 19]LogSlate: Took 0.010792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.28-20.25.49:070][ 68]LogSlate: Window 'Background*' being destroyed
+[2018.09.28-20.25.49:087][ 68]LogSlate: Window 'Background*' being destroyed
+[2018.09.28-20.25.53:691][210]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Background.Background
+[2018.09.28-20.26.11:453][571]LogRenderer: Reallocating scene render targets to support 1084x608 Format 10 NumSamples 1 (Frame:238).
+[2018.09.28-20.26.21:325][743]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.28-20.26.29:988][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.26.30:086][962]LogSlate: Window 'Background*' being destroyed
+[2018.09.28-20.26.30:105][962]LogSlate: Window 'Background*' being destroyed
+[2018.09.28-20.27.20:525][ 68]LogSlate: Window 'Escoger clase padre' being destroyed
+[2018.09.28-20.27.27:611][321]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.28-20.27.29:618][321]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.09.28-20.27.34:787][354]LogSlate: Took 0.009970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.28-20.27.45:054][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.27.45:229][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-20.27.45:281][548]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/DescartesC735B36E4CBA7483CF1A4A8E5BAC7E64.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-20.34.21:520][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.090
+[2018.09.28-20.34.21:524][636]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Background] ([1] browsable assets)...
+[2018.09.28-20.34.21:554][636]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Background.Background]
+[2018.09.28-20.34.21:554][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Background]
+[2018.09.28-20.34.21:554][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Sprites/Background_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.28-20.34.21:585][636]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Background_Auto1BFEBC8654B83863452E1EE90EC0BA30F.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Sprites/Background_Auto1.uasset'
+[2018.09.28-20.34.21:587][636]LogFileHelpers: Auto-saving content packages took 0.065
+[2018.09.28-20.59.35:817][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-20.59.52:366][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.00.25:481][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.00.37:202][703]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.09.28-21.00.37:203][703]LogSynthBenchmark: Display: ===============
+[2018.09.28-21.00.37:203][703]LogSynthBenchmark: Display: Main Processor:
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:          ... 0.047629 s/Run 'RayIntersect'
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:          ... 0.055759 s/Run 'Fractal'
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display: 
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 6
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   CPU Perf Index 0: 53.8 (weight 1.00)
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   CPU Perf Index 1: 51.3 (weight 1.50)
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:  
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display: Graphics:
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce 610M      '
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Device Id: 0x1058
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Device Revision: 0xA1
+[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   GPU Memory: 1997/0/2048 MB
+[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:   GPU first test: 0.13s
+[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.094 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.082 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.416 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.016 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.054 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.092 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:   GPU second test: 1.34s
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.129 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.086 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.678 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.014 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.069 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.129 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.086 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.678 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.014 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.069 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display: 
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 0: 2.4 (weight 1.00)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 1: 1.7 (weight 0.10)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 2: 2.2 (weight 0.10)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 3: 2.7 (weight 3.00)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 4: 1.3 (weight 1.00)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 5: 4.5 (weight 0.00)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 6: 4.4 (weight 0.00)
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPUIndex: 2.3
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   CPUIndex: 52.3
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display: 
+[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:          ... Total Time: 4.293536 sec
+[2018.09.28-21.00.42:683][704]LogRenderer: Reallocating scene render targets to support 1084x608 Format 9 NumSamples 1 (Frame:4035).
+[2018.09.28-21.00.42:890][706]LogContentStreaming: Texture pool size now 400 MB
+[2018.09.28-21.01.28:296][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-21.01.28:474][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.088
+[2018.09.28-21.01.28:479][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Descartes] ([1] browsable assets)...
+[2018.09.28-21.01.28:479][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Descartes]
+[2018.09.28-21.01.28:557][102]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes_Auto25841D08246A9891369234EB3EAFA895D.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto2.uasset'
+[2018.09.28-21.01.28:560][102]LogFileHelpers: Auto-saving content packages took 0.083
+[2018.09.28-21.03.53:738][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.03.53:834][ 67]BlueprintLog: New page: Compilar Descartes
+[2018.09.28-21.03.55:090][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.03.55:145][ 86]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes5B8ED1BF49C9F57A672B83ACFD4657A7.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.29.21:279][900]LogSlate: Window 'Descartes' being destroyed
+[2018.09.28-21.29.21:318][900]LogSlate: Window 'Descartes' being destroyed
+[2018.09.28-21.29.36:477][569]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.28-21.30.22:879][930]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Enrique\Desktop\Top_Down_Survivor\Top_Down_Survivor\handgun\idle\survivor-idle_handgun_0.png)
+[2018.09.28-21.30.22:894][930]LogTexture: Display: Building textures: survivor-idle_handgun_0 (BGRA8, 253X216)
+[2018.09.28-21.30.29:714][237]LogSlate: Window 'Guardar contenido' being destroyed
+[2018.09.28-21.30.29:803][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/survivor-idle_handgun_0" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0.uasset" SILENT=true
+[2018.09.28-21.30.29:856][237]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_00E2113004D466FDC3FB927986D6A7D99.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0.uasset'
+[2018.09.28-21.30.45:210][998]LogSlate: Window 'Guardar contenido' being destroyed
+[2018.09.28-21.30.45:335][998]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_0_Sprite52EF60AC47115EA97C0E519777DDBB35.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite.uasset'
+[2018.09.28-21.30.52:647][426]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.28-21.31.06:325][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.31.36:107][888]LogSlate: Window 'Save Asset As' being destroyed
+[2018.09.28-21.31.44:331][888]LogSlate: Window 'Mensaje' being destroyed
+[2018.09.28-21.31.50:897][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.32.30:769][950]LogSlate: Window 'Guardar contenido' being destroyed
+[2018.09.28-21.32.30:828][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.32.30:902][950]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes4B2D8CFB44B92F62DABC40B1C49F1BB6.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.32.35:524][950]LogSlate: Window 'Mensaje' being destroyed
+[2018.09.28-21.32.35:537][950]EditorErrors: New page: Guardar salida
+[2018.09.28-21.32.35:538][950]EditorErrors: Warning: El activo '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite.uasset' no pudo guardarse porque solo se ha cargado parcialmente
+[2018.09.28-21.32.38:905][139]LogSlate: Window 'Registro del mensaje' being destroyed
+[2018.09.28-21.32.38:919][139]LogSlate: Window 'Registro del mensaje' being destroyed
+[2018.09.28-21.32.44:948][248]LogSlate: Window 'Delete Assets' being destroyed
+[2018.09.28-21.32.44:962][248]LogSlate: Window 'Descartes' being destroyed
+[2018.09.28-21.32.54:458][684]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.28-21.33.02:014][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.33.46:705][805]LogSlate: Window 'Extract sprites' being destroyed
+[2018.09.28-21.33.50:077][954]LogSlate: Window 'Guardar contenido' being destroyed
+[2018.09.28-21.33.50:141][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.33.50:188][954]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes1BD67CB8426B152CC7B3869207BF301A.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.33.50:276][954]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_0_Sprite_0E437D9024A89B7F3A40707BFC20B1048.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite_0.uasset'
+[2018.09.28-21.34.10:576][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.34.10:672][950]BlueprintLog: New page: Compilar Descartes
+[2018.09.28-21.34.12:332][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.34.12:381][989]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes960B21B242D5F4C7AD5516B27AD91DBC.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.34.20:426][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.34.22:644][338]BlueprintLog: New page: Compilar Descartes
+[2018.09.28-21.34.23:836][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.34.23:884][357]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes14327CAC417C21E146AAC5AEC60192D3.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.34.30:984][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.34.31:086][624]BlueprintLog: New page: Compilar Descartes
+[2018.09.28-21.34.32:274][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.28-21.34.32:321][643]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/DescartesCC4B8F6A4A87A108AEFF1494A3A74F69.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.28-21.35.00:461][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.35.11:957][135]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.28-21.35.12:188][137]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
+[2018.09.28-21.35.12:189][137]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.35.12:189][137]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.28-21.35.12:189][137]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.35.12:189][137]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.28-21.35.12:295][138]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.28-21.35.13:795][212]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.35.13:809][212]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.35.18:335][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.28-21.35.20:060][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.36.34:479][421]LogSlate: Window 'Escoger clase padre' being destroyed
+[2018.09.28-21.36.44:287][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.28-21.36.47:421][210]Cmd: DELETE
+[2018.09.28-21.36.47:421][210]Cmd: ACTOR DELETE
+[2018.09.28-21.36.47:438][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.28-21.36.47:504][210]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2018.09.28-21.36.48:703][325]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.09.28-21.36.49:369][365]Cmd: DELETE
+[2018.09.28-21.36.49:369][365]Cmd: ACTOR DELETE
+[2018.09.28-21.36.49:375][365]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.09.28-21.36.49:448][365]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2018.09.28-21.36.50:149][429]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.09.28-21.36.50:635][455]Cmd: DELETE
+[2018.09.28-21.36.50:635][455]Cmd: ACTOR DELETE
+[2018.09.28-21.36.50:640][455]LogEditorActor: Deleted Actor: SkyLight
+[2018.09.28-21.36.50:707][455]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2018.09.28-21.36.51:287][507]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.09.28-21.36.51:757][529]Cmd: DELETE
+[2018.09.28-21.36.51:757][529]Cmd: ACTOR DELETE
+[2018.09.28-21.36.51:763][529]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.09.28-21.36.51:830][529]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2018.09.28-21.36.52:731][612]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.09.28-21.36.54:054][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.28-21.36.55:125][768]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.09.28-21.36.58:676][996]Cmd: DELETE
+[2018.09.28-21.36.58:677][996]Cmd: ACTOR DELETE
+[2018.09.28-21.36.58:680][996]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
+[2018.09.28-21.36.58:690][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-21.37.00:124][996]LogSlate: Window 'Mensaje' being destroyed
+[2018.09.28-21.37.00:201][996]LogEditorActor: Deleted 0 Actors (1.524 secs)
+[2018.09.28-21.37.17:880][235]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GameBaseDescartes.GameBaseDescartes
+[2018.09.28-21.37.21:663][342]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.28-21.37.57:061][854]BlueprintLog: New page: Compilar GameBaseDescartes
+[2018.09.28-21.37.57:983][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameBaseDescartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/GameBaseDescartes.uasset" SILENT=true
+[2018.09.28-21.37.58:017][872]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/GameBaseDescartesECEE0D7F413D5D38BD4A858CCB4E76E2.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/GameBaseDescartes.uasset'
+[2018.09.28-21.38.12:072][471]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.28-21.38.13:534][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.38.13:633][572]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.28-21.38.13:694][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.28-21.38.13:717][572]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:38:13)
+[2018.09.28-21.38.13:717][572]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.28-21.38.13:724][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006358s)
+[2018.09.28-21.38.13:725][572]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.28-21.38.13:726][572]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2018.09.28-21.38.13:726][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008760s)
+[2018.09.28-21.38.13:814][572]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.28-21.38.13:834][572]LogInit: FAudioDevice initialized.
+[2018.09.28-21.38.13:893][572]LogLoad: Game class is 'GameModeBase'
+[2018.09.28-21.38.13:908][572]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.38.13
+[2018.09.28-21.38.13:918][572]LogWorld: Bringing up level for play took: 0.012788
+[2018.09.28-21.38.14:027][572]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
+[2018.09.28-21.38.14:036][572]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 -0,042
+[2018.09.28-21.38.15:913][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.38.15:971][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.28-21.38.16:032][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.38.16:065][716]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.28-21.38.25:848][572]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.28-21.38.28:119][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-21.38.30:667][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.28-21.38.33:256][866]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.28-21.38.33:420][867]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
+[2018.09.28-21.38.33:421][867]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.38.33:423][867]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.28-21.38.33:423][867]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.38.33:423][867]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.28-21.38.33:423][867]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.28-21.39.32:179][993]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.09.28-21.40.29:171][796]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.40.29:184][796]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.40.30:435][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.40.30:549][877]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.28-21.40.30:590][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.28-21.40.30:591][877]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:40:30)
+[2018.09.28-21.40.30:591][877]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.28-21.40.30:597][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005702s)
+[2018.09.28-21.40.30:598][877]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.28-21.40.30:599][877]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2018.09.28-21.40.30:599][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007839s)
+[2018.09.28-21.40.30:672][877]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.28-21.40.30:689][877]LogInit: FAudioDevice initialized.
+[2018.09.28-21.40.30:730][877]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.28-21.40.30:733][877]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.40.30
+[2018.09.28-21.40.30:734][877]LogWorld: Bringing up level for play took: 0.002384
+[2018.09.28-21.40.30:752][877]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 0,674
+[2018.09.28-21.40.33:563][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.40.33:619][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.28-21.40.33:685][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.40.33:714][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.09.28-21.40.40:502][741]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.28-21.40.40:542][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.28-21.40.40:543][741]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:40:40)
+[2018.09.28-21.40.40:543][741]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.28-21.40.40:548][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005006s)
+[2018.09.28-21.40.40:549][741]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.28-21.40.40:550][741]LogPlayLevel: PIE: World Init took: (0.001669s)
+[2018.09.28-21.40.40:550][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006987s)
+[2018.09.28-21.40.40:628][741]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.28-21.40.40:642][741]LogInit: FAudioDevice initialized.
+[2018.09.28-21.40.40:679][741]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.28-21.40.40:682][741]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.40.40
+[2018.09.28-21.40.40:683][741]LogWorld: Bringing up level for play took: 0.002336
+[2018.09.28-21.40.40:700][741]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 0,622
+[2018.09.28-21.40.43:558][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.40.43:655][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.40.43:709][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.28-21.40.43:772][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.28-21.40.43:808][974]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.28-21.40.51:123][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.28-21.40.56:272][565]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.28-21.40.56:421][566]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
+[2018.09.28-21.40.56:421][566]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.40.56:421][566]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.28-21.40.56:421][566]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.40.56:421][566]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.28-21.40.56:450][567]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.28-21.41.26:521][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.09.28-21.41.26:593][ 32]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Untitled_1_Auto368E620B643E358B3FB4263A7E8BA5211.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2018.09.28-21.41.26:610][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.164
+[2018.09.28-21.41.26:611][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
+[2018.09.28-21.41.46:010][206]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.41.46:020][206]LogSlate: Window 'Ajustes del proyecto' being destroyed
+[2018.09.28-21.42.06:629][321]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.28-21.42.06:810][322]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
+[2018.09.28-21.42.06:810][322]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.42.06:810][322]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.28-21.42.06:810][322]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.28-21.42.06:810][322]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.28-21.42.06:810][322]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
