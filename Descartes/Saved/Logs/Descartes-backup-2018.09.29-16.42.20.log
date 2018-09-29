@@ -1,0 +1,1177 @@
+﻿Log file open, 09/29/18 14:12:03
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Descartes
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.261037
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.425s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Programas/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.29-12.12.05:082][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.29-12.12.05:082][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.29-12.12.05:173][  0]LogHAL: Display: Platform has ~ 4 GB [3871174656 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.29-12.12.05:173][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.29-12.12.05:173][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.29-12.12.05:185][  0]LogInit: Computer: PORTATIL
+[2018.09.29-12.12.05:185][  0]LogInit: User: lsjos
+[2018.09.29-12.12.05:185][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.09.29-12.12.05:185][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2018.09.29-12.12.05:186][  0]LogMemory: Memory total: Physical=3.6GB (4GB approx)
+[2018.09.29-12.12.05:186][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.29-12.12.05:186][  0]LogMemory: Process Physical Memory: 100.34 MB used, 100.34 MB peak
+[2018.09.29-12.12.05:186][  0]LogMemory: Process Virtual Memory: 84.41 MB used, 84.41 MB peak
+[2018.09.29-12.12.05:186][  0]LogMemory: Physical Memory: 1599.53 MB used,  2092.31 MB free, 3691.84 MB total
+[2018.09.29-12.12.05:186][  0]LogMemory: Virtual Memory: 4616.35 MB used,  2092.31 MB free, 134217728.00 MB total
+[2018.09.29-12.12.05:453][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.09.29-12.12.05:453][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.09.29-12.12.07:295][  0]LogStreaming: Display: Took  1.841s to InitEngineTextLocalization.
+[2018.09.29-12.12.07:296][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.29-12.12.07:633][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.29-12.12.07:633][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.29-12.12.11:313][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.29-12.12.11:313][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.29-12.12.11:319][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.09.29-12.12.11:319][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.09.29-12.12.11:323][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.29-12.12.11:323][  0]LogD3D11RHI:       0/0/1845 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.29-12.12.11:323][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.29-12.12.11:332][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.29-12.12.11:332][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.29-12.12.11:332][  0]LogWindows: EnumDisplayDevices:
+[2018.09.29-12.12.11:333][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.09.29-12.12.11:333][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.29-12.12.11:334][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.29-12.12.11:334][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.09.29-12.12.11:334][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2018.09.29-12.12.11:334][  0]LogD3D11RHI:   Driver Version: 10.18.10.4252 (internal:10.18.10.4252, unified:10.18.10.4252)
+[2018.09.29-12.12.11:334][  0]LogD3D11RHI:      Driver Date: 7-10-2015
+[2018.09.29-12.12.11:334][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2018.09.29-12.12.11:339][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.29-12.12.11:348][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.09.29-12.12.11:349][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Intermediate/Shaders/WorkingDirectory/9208/).
+[2018.09.29-12.12.11:349][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lsjos/AppData/Local/Temp/UnrealShaderWorkingDir/A04906C94577F43C14ABD596287A9ADB/'.
+[2018.09.29-12.12.14:260][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.29-12.12.14:300][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.29-12.12.14:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.29-12.12.14:364][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.29-12.12.14:406][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.29-12.12.14:445][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.29-12.12.14:475][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.29-12.12.14:498][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.29-12.12.14:508][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.29-12.12.14:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:667][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:668][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-12.12.14:686][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.29-12.12.14:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.29-12.12.14:823][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.29-12.12.14:876][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.29-12.12.14:876][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.29-12.12.14:911][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.29-12.12.14:937][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.29-12.12.14:964][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.29-12.12.14:998][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.29-12.12.15:018][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.29-12.12.15:019][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.29-12.12.15:474][  0]LogXGEController: Cleaning working directory: C:/Users/lsjos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.29-12.12.15:474][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.29-12.12.15:474][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.29-12.12.15:474][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.29-12.12.19:767][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.29-12.12.20:477][  0]LogDerivedDataCache: Loaded boot cache 0.71s 71MB C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.29-12.12.20:478][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.29-12.12.20:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.29-12.12.20:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.29-12.12.20:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.29-12.12.20:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.29-12.12.20:500][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.29-12.12.20:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lsjos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.29-12.12.20:513][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.29-12.12.20:513][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.29-12.12.20:546][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.29-12.12.20:548][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.29-12.12.20:651][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.29-12.12.21:151][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2018.09.29-12.12.21:753][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.29-12.12.22:334][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.29-12.12.22:513][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.29-12.12.22:513][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.29-12.12.22:513][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.29-12.12.22:513][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.29-12.12.22:536][  0]LogNetVersion: Descartes 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3270631910)
+[2018.09.29-12.12.23:549][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.154950 seconds
+[2018.09.29-12.12.23:563][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.29-12.12.23:563][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.29-12.12.23:563][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.29-12.12.34:967][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.29-12.12.34:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.29-12.12.35:687][  0]SourceControl: Source control is disabled
+[2018.09.29-12.12.35:687][  0]SourceControl: Source control is disabled
+[2018.09.29-12.12.35:734][  0]SourceControl: Source control is disabled
+[2018.09.29-12.12.35:748][  0]SourceControl: Source control is disabled
+[2018.09.29-12.12.36:765][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.29-12.12.37:123][  0]LogOcInput: OculusInput pre-init called
+[2018.09.29-12.12.37:425][  0]LogEngine: Initializing Engine...
+[2018.09.29-12.12.37:427][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.29-12.12.37:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.29-12.12.37:430][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.29-12.12.37:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.29-12.12.37:431][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.29-12.12.37:813][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.29-12.12.37:889][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.29-12.12.37:911][  0]LogInit: No audio devices found!
+[2018.09.29-12.12.37:912][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.29-12.12.38:236][  0]LogDerivedDataCache: Saved boot cache 0.32s 71MB C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.29-12.12.38:262][  0]LogInit: Texture streaming: Enabled
+[2018.09.29-12.12.38:395][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.29-12.12.38:433][  0]LogInit: Transaction tracking system initialized
+[2018.09.29-12.12.38:548][  0]BlueprintLog: New page: Editor Load
+[2018.09.29-12.12.39:651][  0]LocalizationService: Localization service is disabled
+[2018.09.29-12.12.41:251][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.29-12.12.41:251][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.29-12.12.41:251][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.29-12.12.41:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.29-12.12.41:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.29-12.12.41:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.29-12.12.41:251][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.29-12.12.41:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/' took 0.02s
+[2018.09.29-12.12.43:046][  0]SourceControl: Source control is disabled
+[2018.09.29-12.12.43:046][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.29-12.12.43:071][  0]LightingResults: New page: Lighting Build
+[2018.09.29-12.12.43:075][  0]MapCheck: New page: Map Check
+[2018.09.29-12.12.43:075][  0]LightingResults: New page: Lighting Build
+[2018.09.29-12.12.43:536][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-12.12.43:554][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.29-12.12.43:598][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.29-12.12.43:701][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 102.784ms to complete.
+[2018.09.29-12.12.43:701][  0]LogFileHelpers: Loading map 'Template_Default' took 0.656
+[2018.09.29-12.12.43:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.12.43:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.12.43:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.12.43:942][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.12.43:975][  0]LogCollectionManager: Loaded 0 collections in 0.002806 seconds
+[2018.09.29-12.12.44:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Collections/' took 0.01s
+[2018.09.29-12.12.44:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Developers/lsjos/Collections/' took 0.01s
+[2018.09.29-12.12.44:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Collections/' took 0.01s
+[2018.09.29-12.12.44:019][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.29-12.12.44:038][  0]LogContentBrowser: Native class hierarchy populated in 0.0187 seconds. Added 2572 classes and 603 folders.
+[2018.09.29-12.12.44:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.29-12.12.46:799][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.29-12.12.46:846][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.09.29-12.12.46:896][  0]LogSlate: Took 0.020161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.29-12.12.46:914][  0]LogSlate: Took 0.015419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.29-12.12.46:943][  0]LogSlate: Took 0.019566 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.29-12.12.47:155][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2018.09.29-12.12.48:176][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.29-12.12.48:176][  0]LogLoad: (Engine Initialization) Total time: 71.64 seconds
+[2018.09.29-12.12.48:176][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.29-12.12.48:232][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.29-12.12.48:299][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/' took 0.09s
+[2018.09.29-12.12.48:362][  2]LogAssetRegistry: Asset discovery search completed in 27.2331 seconds
+[2018.09.29-12.12.48:366][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.29-12.12.48:366][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2018.09.29-12.12.51:299][ 54]LogSlate: Took 0.034935 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-12.12.52:304][114]LogSlate: Took 0.000611 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-12.17.25:893][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.17.26:415][111]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.29-12.17.27:413][111]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.09.29-12.17.29:144][111]LogSlate: Took 0.045483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.29-12.18.32:470][710]AssetReimport: New page: Outstanding source content changes 4:18:32 PM
+[2018.09.29-12.18.32:489][711]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes.png)
+[2018.09.29-12.18.32:691][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/IdleDescartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes.uasset" SILENT=true
+[2018.09.29-12.18.32:809][712]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/IdleDescartesDD31CA974D28B9572AC8848384DB2EC7.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes.uasset'
+[2018.09.29-12.18.35:833][855]AssetReimport: Importing new asset /Game/Sprites/IdleDescartes.
+[2018.09.29-12.18.51:998][318]LogSlate: Window 'Extract sprites' being destroyed
+[2018.09.29-12.19.06:971][716]LogRenderer: Reallocating scene render targets to support 856x464 Format 10 NumSamples 1 (Frame:1).
+[2018.09.29-12.19.07:629][722]LogSlate: Took 0.031981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.29-12.19.14:209][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.19.14:297][819]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesCB973D1C4D5C89596D815EBE7B836E45.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.22.27:721][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.22.27:923][260]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes33C252BA41D33102348F66A5CE8FFE05.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.25.29:551][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.25.29:767][540]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesE14D6CB2486BAD6B139B2ABB09A5387A.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.25.29:912][545]BlueprintLog: New page: Compile Descartes
+[2018.09.29-12.25.29:980][545]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.25.29:980][545]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.25.31:478][545]LogBlueprint: Warning: [Compiler Descartes] [0834.94] Compile of Descartes failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,565 ms] (/Game/Blueprints/Descartes.Descartes)
+[2018.09.29-12.26.53:585][407]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.26.53:778][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.26.53:869][408]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes9D4F8AD04C602BF5B1D7F1941597AC56.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.26.54:754][421]BlueprintLog: New page: Compile Descartes
+[2018.09.29-12.26.54:806][421]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.26.54:806][421]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.26.55:148][421]LogBlueprint: Warning: [Compiler Descartes] [0918.61] Compile of Descartes failed. 2 Fatal Issue(s) 0 Warning(s) [in 395 ms] (/Game/Blueprints/Descartes.Descartes)
+[2018.09.29-12.27.03:059][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.27.13:661][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.27.13:790][696]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes6AA1AF5F4715BE02D784B3B04C09BEE5.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.27.39:160][779]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.051
+[2018.09.29-12.27.39:176][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/IdleDescartes_Sprite_0] ([1] browsable assets)...
+[2018.09.29-12.27.39:191][779]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/IdleDescartes_Sprite_0.IdleDescartes_Sprite_0]
+[2018.09.29-12.27.39:192][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/IdleDescartes_Sprite_0]
+[2018.09.29-12.27.39:234][779]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/IdleDescartes_Sprite_0_Auto1FBAB6D4F4EABB8A502FD0F9BDDE17B60.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Sprites/IdleDescartes_Sprite_0_Auto1.uasset'
+[2018.09.29-12.27.39:237][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/IdleDescartes_Sprite_1] ([1] browsable assets)...
+[2018.09.29-12.27.39:250][779]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/IdleDescartes_Sprite_1.IdleDescartes_Sprite_1]
+[2018.09.29-12.27.39:251][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/IdleDescartes_Sprite_1]
+[2018.09.29-12.27.39:298][779]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/IdleDescartes_Sprite_1_Auto1B6FF43F84A8EAFCB28DE5FA514C1DE69.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Sprites/IdleDescartes_Sprite_1_Auto1.uasset'
+[2018.09.29-12.27.39:301][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Idle] ([1] browsable assets)...
+[2018.09.29-12.27.39:314][779]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Sprites/Idle.Idle]
+[2018.09.29-12.27.39:314][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Idle]
+[2018.09.29-12.27.39:314][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Idle" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Sprites/Idle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.29-12.27.39:335][779]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Idle_Auto1E661E36046566B205FBC6A9831799284.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Sprites/Idle_Auto1.uasset'
+[2018.09.29-12.27.39:337][779]LogFileHelpers: Auto-saving content packages took 0.176
+[2018.09.29-12.43.15:535][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.43.25:830][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.44.10:001][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.44.10:803][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.44.10:890][786]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes626F5BB34B4D337C89445CB5FE1140F8.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.44.11:179][792]BlueprintLog: New page: Compile Descartes
+[2018.09.29-12.44.11:225][792]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.44.11:225][792]LogBlueprint: Error: [Compiler Descartes] This blueprint (self) is not a PaperFlipbookComponent, therefore ' Target ' must have a connection.
+[2018.09.29-12.44.11:513][792]LogBlueprint: Warning: [Compiler Descartes] [1954.98] Compile of Descartes failed. 2 Fatal Issue(s) 0 Warning(s) [in 334 ms] (/Game/Blueprints/Descartes.Descartes)
+[2018.09.29-12.44.42:396][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.44.42:474][658]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesC21C68104BC69ECEA7AA70B57C367E0B.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.44.42:845][667]BlueprintLog: New page: Compile Descartes
+[2018.09.29-12.44.45:640][724]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-12.44.45:775][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-12.44.45:916][724]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 4:44:45 PM)
+[2018.09.29-12.44.45:929][724]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-12.44.46:002][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072871s)
+[2018.09.29-12.44.46:004][724]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-12.44.46:015][724]LogPlayLevel: PIE: World Init took: (0.013198s)
+[2018.09.29-12.44.46:026][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.096903s)
+[2018.09.29-12.44.46:298][724]LogLinker: Warning: Can't find file '/Game/Sprites/Idle'
+[2018.09.29-12.44.46:299][724]LogLinker: Warning: Can't find file for asset '/Game/Sprites/Idle' while loading C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset.
+[2018.09.29-12.44.46:299][724]LoadErrors: Error: /Game/Blueprints/Descartes : Can't find file for asset. /Game/Sprites/Idle
+[2018.09.29-12.44.46:300][724]LogLinker: Warning: Can't find file '/Game/Sprites/Idle'
+[2018.09.29-12.44.46:301][724]LogLinker: Warning: Can't find file for asset '/Game/Sprites/Idle' while loading C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset.
+[2018.09.29-12.44.46:310][724]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-12.44.46:440][724]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-14.44.46
+[2018.09.29-12.44.46:457][724]LogWorld: Bringing up level for play took: 0.017982
+[2018.09.29-12.44.46:805][724]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0200 seconds. Added 10 classes and 0 folders.
+[2018.09.29-12.44.47:010][724]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.423
+[2018.09.29-12.45.14:805][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.45.14:926][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-12.45.15:044][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.45.15:175][666]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.09.29-12.45.15:843][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-12.45.26:485][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.45.26:565][805]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes4F25345D4682629DDE7EFDBF8D3D50C8.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.45.27:405][818]BlueprintLog: New page: Compile Descartes
+[2018.09.29-12.45.30:755][873]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-12.45.30:806][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-12.45.30:807][873]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 4:45:30 PM)
+[2018.09.29-12.45.30:807][873]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-12.45.30:812][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004305s)
+[2018.09.29-12.45.30:813][873]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-12.45.30:814][873]LogPlayLevel: PIE: World Init took: (0.001990s)
+[2018.09.29-12.45.30:814][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007011s)
+[2018.09.29-12.45.30:964][873]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-12.45.30:965][873]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-14.45.30
+[2018.09.29-12.45.30:966][873]LogWorld: Bringing up level for play took: 0.000978
+[2018.09.29-12.45.30:981][873]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.607
+[2018.09.29-12.45.34:566][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.45.34:635][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-12.45.34:673][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.45.34:722][991]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.29-12.45.38:428][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.45.41:958][166]LogAssetEditorManager: Opening Asset editor for PaperFlipbook /Game/Sprites/WalkR.WalkR
+[2018.09.29-12.45.42:458][167]LogRenderer: Reallocating scene render targets to support 1084x476 Format 10 NumSamples 1 (Frame:1).
+[2018.09.29-12.45.55:213][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WalkR" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/WalkR.uasset" SILENT=true
+[2018.09.29-12.45.55:249][318]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/WalkR7C7305664A6B92EEE4F7BA905767D186.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/WalkR.uasset'
+[2018.09.29-12.45.58:300][371]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-12.45.58:356][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-12.45.58:357][371]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 4:45:58 PM)
+[2018.09.29-12.45.58:357][371]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-12.45.58:362][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005351s)
+[2018.09.29-12.45.58:364][371]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-12.45.58:365][371]LogPlayLevel: PIE: World Init took: (0.002399s)
+[2018.09.29-12.45.58:365][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007971s)
+[2018.09.29-12.45.58:450][371]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-12.45.58:451][371]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-14.45.58
+[2018.09.29-12.45.58:452][371]LogWorld: Bringing up level for play took: 0.001002
+[2018.09.29-12.45.58:466][371]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.878
+[2018.09.29-12.46.08:471][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.46.08:536][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-12.46.08:572][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-12.46.08:618][701]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.29-12.46.13:925][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.46.16:059][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.29-12.46.17:478][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-12.46.22:235][892]LogSlate: Window 'Save Level As' being destroyed
+[2018.09.29-12.46.25:958][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WalkR" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/WalkR.uasset" SILENT=true
+[2018.09.29-12.46.26:043][942]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/WalkR6C29EE05458C03EB1D7C77AA62D12E3D.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/WalkR.uasset'
+[2018.09.29-12.46.28:331][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-12.46.28:406][970]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesDD5EF28443977FE1198ABC9180823CCB.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-12.46.29:727][987]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-14.11.45:052][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.11.45:096][603]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.11.45:217][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.11.45:217][603]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:11:45 PM)
+[2018.09.29-14.11.45:217][603]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.11.45:221][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004158s)
+[2018.09.29-14.11.45:223][603]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.11.45:224][603]LogPlayLevel: PIE: World Init took: (0.001754s)
+[2018.09.29-14.11.45:224][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006379s)
+[2018.09.29-14.11.45:313][603]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.11.45:315][603]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.11.45
+[2018.09.29-14.11.45:315][603]LogWorld: Bringing up level for play took: 0.001412
+[2018.09.29-14.11.45:331][603]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.257
+[2018.09.29-14.12.13:565][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.12.13:630][539]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.12.13:677][539]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.12.13:723][540]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.29-14.12.17:144][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.12.17:221][626]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.12.17:260][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.12.17:260][626]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:12:17 PM)
+[2018.09.29-14.12.17:261][626]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.12.17:267][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006633s)
+[2018.09.29-14.12.17:270][626]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.12.17:272][626]LogPlayLevel: PIE: World Init took: (0.004223s)
+[2018.09.29-14.12.17:272][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.011465s)
+[2018.09.29-14.12.17:355][626]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.12.17:356][626]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.12.17
+[2018.09.29-14.12.17:357][626]LogWorld: Bringing up level for play took: 0.001127
+[2018.09.29-14.12.17:371][626]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.216
+[2018.09.29-14.12.25:991][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.12.26:056][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.12.26:092][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.12.26:138][911]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.29-14.12.33:602][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.12.39:583][350]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.12.42:079][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.29-14.12.43:088][494]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.09.29-14.12.44:133][531]Cmd: DELETE
+[2018.09.29-14.12.44:133][531]Cmd: ACTOR DELETE
+[2018.09.29-14.12.44:452][531]LogEditorActor: Deleted Actor: SkyLight
+[2018.09.29-14.12.44:495][531]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2018.09.29-14.12.45:038][555]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2018.09.29-14.12.45:540][568]Cmd: DELETE
+[2018.09.29-14.12.45:540][568]Cmd: ACTOR DELETE
+[2018.09.29-14.12.45:546][568]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
+[2018.09.29-14.12.45:564][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.12.49:288][568]LogSlate: Window 'Message' being destroyed
+[2018.09.29-14.12.49:296][568]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.09.29-14.12.49:339][568]LogEditorActor: Deleted 1 Actors (3.799 secs)
+[2018.09.29-14.12.50:200][604]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.09.29-14.12.51:764][660]Cmd: DELETE
+[2018.09.29-14.12.51:764][660]Cmd: ACTOR DELETE
+[2018.09.29-14.12.51:771][660]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.09.29-14.12.51:821][660]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.09.29-14.12.53:137][715]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2018.09.29-14.12.55:317][796]Cmd: DELETE
+[2018.09.29-14.12.55:318][796]Cmd: ACTOR DELETE
+[2018.09.29-14.12.55:324][796]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.09.29-14.12.55:376][796]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2018.09.29-14.12.56:946][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.12.57:331][876]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.09.29-14.12.57:382][876]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.09.29-14.13.06:743][217]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.29-14.14.03:046][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.14.08:203][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.14.23:331][847]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.14.26:170][919]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.29-14.14.26:190][919]LogPlayLevel: [PlayLevel] Compiling Descartes before play...
+[2018.09.29-14.14.26:488][919]LogPlayLevel: PlayLevel: Blueprint regeneration took 318 ms (1 blueprints)
+[2018.09.29-14.14.26:488][919]PIE: New page: SIE session: Untitled_1 (Sep 29, 2018, 6:14:26 PM)
+[2018.09.29-14.14.26:488][919]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.14.26:490][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001626s)
+[2018.09.29-14.14.26:492][919]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.14.26:492][919]LogPlayLevel: PIE: World Init took: (0.001997s)
+[2018.09.29-14.14.26:492][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003791s)
+[2018.09.29-14.14.26:529][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.14.26:564][919]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.14.26:565][919]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.14.26
+[2018.09.29-14.14.26:565][919]LogWorld: Bringing up level for play took: 0.000789
+[2018.09.29-14.14.26:580][919]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.992
+[2018.09.29-14.14.28:030][950]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.29-14.14.29:784][984]LogEditorViewport: Clicking Background
+[2018.09.29-14.14.30:747][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.14.30:862][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.14.30:901][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.14.30:937][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.14.30:969][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.29-14.14.33:993][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.14.33:993][131]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:14:33 PM)
+[2018.09.29-14.14.33:993][131]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.14.33:995][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002297s)
+[2018.09.29-14.14.33:997][131]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.14.33:997][131]LogPlayLevel: PIE: World Init took: (0.001469s)
+[2018.09.29-14.14.33:997][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004036s)
+[2018.09.29-14.14.34:080][131]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.14.34:082][131]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.14.34
+[2018.09.29-14.14.34:082][131]LogWorld: Bringing up level for play took: 0.000924
+[2018.09.29-14.14.34:097][131]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.509
+[2018.09.29-14.14.35:229][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.14.35:275][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.14.35:313][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.14.35:329][175]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.29-14.14.56:791][757]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.15.13:712][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.15.19:159][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.15.28:450][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.15.28:501][510]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.15.28:546][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.15.28:546][510]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:15:28 PM)
+[2018.09.29-14.15.28:546][510]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.15.28:551][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004153s)
+[2018.09.29-14.15.28:552][510]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.15.28:553][510]LogPlayLevel: PIE: World Init took: (0.002782s)
+[2018.09.29-14.15.28:554][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007440s)
+[2018.09.29-14.15.28:674][510]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.15.28:675][510]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.15.28
+[2018.09.29-14.15.28:676][510]LogWorld: Bringing up level for play took: 0.000921
+[2018.09.29-14.15.28:690][510]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.102
+[2018.09.29-14.15.30:445][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.15.30:480][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.15.30:517][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.15.30:551][582]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.29-14.15.36:670][746]LogEditorViewport: Clicking Background
+[2018.09.29-14.15.37:108][756]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2018.09.29-14.15.42:071][817]LogEditorViewport: Clicking Background
+[2018.09.29-14.15.43:564][851]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.15.56:903][394]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.15.56:975][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.15.56:976][394]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:15:56 PM)
+[2018.09.29-14.15.56:976][394]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.15.56:980][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004386s)
+[2018.09.29-14.15.56:982][394]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.15.56:982][394]LogPlayLevel: PIE: World Init took: (0.001970s)
+[2018.09.29-14.15.56:982][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006683s)
+[2018.09.29-14.15.57:127][394]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.15.57:129][394]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.15.57
+[2018.09.29-14.15.57:130][394]LogWorld: Bringing up level for play took: 0.001303
+[2018.09.29-14.15.57:146][394]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.441
+[2018.09.29-14.16.09:055][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.16.09:097][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.16.09:136][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.16.09:173][835]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.29-14.16.11:085][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.16.11:151][887]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.16.11:212][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.16.11:213][887]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:16:11 PM)
+[2018.09.29-14.16.11:214][887]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.16.11:220][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005837s)
+[2018.09.29-14.16.11:221][887]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.16.11:221][887]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2018.09.29-14.16.11:221][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007623s)
+[2018.09.29-14.16.11:314][887]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.16.11:316][887]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.16.11
+[2018.09.29-14.16.11:317][887]LogWorld: Bringing up level for play took: 0.001565
+[2018.09.29-14.16.11:332][887]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.257
+[2018.09.29-14.16.27:993][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.16.28:028][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.16.28:070][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.16.28:111][516]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.29-14.16.28:424][523]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.17.05:293][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.09.29-14.17.05:464][712]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Untitled_1_Auto2D9BCD7CA4D94FAEB86AC8B955812549C.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.09.29-14.17.05:520][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.348
+[2018.09.29-14.17.05:520][712]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.348
+[2018.09.29-14.17.05:523][712]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Descartes] ([1] browsable assets)...
+[2018.09.29-14.17.05:523][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Descartes]
+[2018.09.29-14.17.05:523][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.09.29-14.17.05:774][712]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes_Auto21755149643A648AEE9FE5ABCB62D2132.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto2.uasset'
+[2018.09.29-14.17.05:784][712]LogFileHelpers: Auto-saving content packages took 0.263
+[2018.09.29-14.17.31:934][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.17.36:359][997]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.17.36:404][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.17.36:404][997]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:17:36 PM)
+[2018.09.29-14.17.36:404][997]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.17.36:408][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003854s)
+[2018.09.29-14.17.36:410][997]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.17.36:411][997]LogPlayLevel: PIE: World Init took: (0.002383s)
+[2018.09.29-14.17.36:411][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006496s)
+[2018.09.29-14.17.36:492][997]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.17.36:493][997]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.17.36
+[2018.09.29-14.17.36:494][997]LogWorld: Bringing up level for play took: 0.000982
+[2018.09.29-14.17.36:508][997]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.92
+[2018.09.29-14.17.46:210][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.17.46:250][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.17.46:286][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.17.46:323][372]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.29-14.17.49:841][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.17.54:623][574]LogEditorActor: Deleted Actor: CameraActor
+[2018.09.29-14.17.54:671][574]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2018.09.29-14.17.59:137][699]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.17.59:183][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.17.59:183][699]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:17:59 PM)
+[2018.09.29-14.17.59:183][699]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.17.59:186][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003073s)
+[2018.09.29-14.17.59:188][699]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.17.59:189][699]LogPlayLevel: PIE: World Init took: (0.002809s)
+[2018.09.29-14.17.59:189][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006154s)
+[2018.09.29-14.17.59:267][699]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.17.59:326][699]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.17.59
+[2018.09.29-14.17.59:327][699]LogWorld: Bringing up level for play took: 0.059872
+[2018.09.29-14.17.59:341][699]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.246
+[2018.09.29-14.18.10:350][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.18.10:392][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.18.10:429][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.18.10:465][138]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.29-14.18.14:953][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.18.49:808][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-14.18.49:950][738]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes00B1FD24477D0EB99A65B7B89A91AB0F.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-14.18.50:295][745]BlueprintLog: New page: Compile Descartes
+[2018.09.29-14.18.52:615][783]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.18.52:665][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.18.52:666][783]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:18:52 PM)
+[2018.09.29-14.18.52:666][783]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.18.52:668][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2018.09.29-14.18.52:669][783]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.18.52:670][783]LogPlayLevel: PIE: World Init took: (0.002237s)
+[2018.09.29-14.18.52:670][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004624s)
+[2018.09.29-14.18.52:749][783]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.18.52:809][783]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.18.52
+[2018.09.29-14.18.52:809][783]LogWorld: Bringing up level for play took: 0.059385
+[2018.09.29-14.18.52:823][783]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.764
+[2018.09.29-14.18.58:291][  4]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.19.08:596][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.19.08:637][426]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.19.08:736][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.19.08:773][427]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.29-14.19.11:218][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.19.17:395][653]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.19.17:440][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.19.17:441][653]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:19:17 PM)
+[2018.09.29-14.19.17:441][653]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.19.17:443][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001934s)
+[2018.09.29-14.19.17:445][653]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.19.17:446][653]LogPlayLevel: PIE: World Init took: (0.003162s)
+[2018.09.29-14.19.17:446][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.005510s)
+[2018.09.29-14.19.17:526][653]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.19.17:527][653]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.19.17
+[2018.09.29-14.19.17:527][653]LogWorld: Bringing up level for play took: 0.000704
+[2018.09.29-14.19.17:542][653]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.045
+[2018.09.29-14.19.19:791][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.19.37:463][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.19.37:505][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.19.37:541][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.19.37:577][451]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.09.29-14.19.42:659][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.19.43:676][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.09.29-14.19.43:717][613]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.09.29-14.19.45:581][663]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.19.45:626][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.19.45:626][663]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:19:45 PM)
+[2018.09.29-14.19.45:626][663]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.19.45:644][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017662s)
+[2018.09.29-14.19.45:646][663]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.19.45:647][663]LogPlayLevel: PIE: World Init took: (0.003009s)
+[2018.09.29-14.19.45:647][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.021112s)
+[2018.09.29-14.19.45:724][663]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.19.45:725][663]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.19.45
+[2018.09.29-14.19.45:725][663]LogWorld: Bringing up level for play took: 0.000581
+[2018.09.29-14.19.45:739][663]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.152
+[2018.09.29-14.19.48:607][781]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.20.04:351][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.20.04:385][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.20.04:421][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.20.04:456][432]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.09.29-14.20.11:184][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.22.16:310][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-14.22.16:601][377]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes6168824648176C265713199E5F4CABA5.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-14.22.16:956][387]BlueprintLog: New page: Compile Descartes
+[2018.09.29-14.22.23:229][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-14.22.23:335][517]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes96D65FBA4B8989B989656FA7CDC9C06B.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-14.22.23:599][524]BlueprintLog: New page: Compile Descartes
+[2018.09.29-14.22.26:326][585]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.22.26:370][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.22.26:370][585]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:22:26 PM)
+[2018.09.29-14.22.26:370][585]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.22.26:381][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010776s)
+[2018.09.29-14.22.26:382][585]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.22.26:383][585]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2018.09.29-14.22.26:383][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.012799s)
+[2018.09.29-14.22.26:462][585]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.22.26:463][585]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.22.26
+[2018.09.29-14.22.26:463][585]LogWorld: Bringing up level for play took: 0.000635
+[2018.09.29-14.22.26:489][585]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.902
+[2018.09.29-14.22.29:443][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.22.43:232][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.22.43:273][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.22.43:311][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.22.43:376][280]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.09.29-14.22.43:963][294]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.24.33:454][904]AssetReimport: New page: Outstanding source content changes 6:24:33 PM
+[2018.09.29-14.24.33:517][905]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/FloorTile.jpg)
+[2018.09.29-14.24.34:339][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/FloorTile" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/FloorTile.uasset" SILENT=true
+[2018.09.29-14.24.34:397][906]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/FloorTile03CC6BF7490498A49E34AA855B96E8BA.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/FloorTile.uasset'
+[2018.09.29-14.24.37:448][976]AssetReimport: Importing new asset /Game/Sprites/FloorTile.
+[2018.09.29-14.24.45:860][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.24.52:466][408]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.24.54:471][488]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.24.58:421][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.25.08:418][888]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.25.29:599][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.25.35:138][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-14.25.44:263][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.25.44:338][806]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.25.44:381][806]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.29-14.25.44:486][806]LogPlayLevel: [PlayLevel] Compiling Descartes before play...
+[2018.09.29-14.25.44:738][806]LogPlayLevel: PlayLevel: Blueprint regeneration took 357 ms (1 blueprints)
+[2018.09.29-14.25.44:738][806]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:25:44 PM)
+[2018.09.29-14.25.44:738][806]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.25.44:740][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001702s)
+[2018.09.29-14.25.44:741][806]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.25.44:741][806]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2018.09.29-14.25.44:741][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002965s)
+[2018.09.29-14.25.44:817][806]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.25.44:818][806]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.25.44
+[2018.09.29-14.25.44:836][806]LogWorld: Bringing up level for play took: 0.018197
+[2018.09.29-14.25.44:867][806]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.279
+[2018.09.29-14.25.46:268][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.25.46:327][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.25.46:428][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.25.46:451][865]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.09.29-14.25.58:724][397]LogEditorViewport: Clicking Background
+[2018.09.29-14.26.01:460][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.26.14:504][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.26.17:104][977]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.26.17:138][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.26.17:139][977]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:26:17 PM)
+[2018.09.29-14.26.17:139][977]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.26.17:140][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001619s)
+[2018.09.29-14.26.17:141][977]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.26.17:142][977]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2018.09.29-14.26.17:142][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002879s)
+[2018.09.29-14.26.17:212][977]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.26.17:213][977]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.26.17
+[2018.09.29-14.26.17:213][977]LogWorld: Bringing up level for play took: 0.000712
+[2018.09.29-14.26.17:228][977]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.36
+[2018.09.29-14.26.21:847][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.21:968][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.26.22:005][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.22:045][167]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.09.29-14.26.22:947][206]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (FloorTile_Sprite)
+[2018.09.29-14.26.24:581][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.26.30:016][354]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.26.30:068][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.26.30:068][354]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:26:30 PM)
+[2018.09.29-14.26.30:068][354]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.26.30:070][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001587s)
+[2018.09.29-14.26.30:071][354]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.26.30:071][354]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2018.09.29-14.26.30:071][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002846s)
+[2018.09.29-14.26.30:147][354]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.26.30:148][354]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.26.30
+[2018.09.29-14.26.30:148][354]LogWorld: Bringing up level for play took: 0.000713
+[2018.09.29-14.26.30:163][354]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.576
+[2018.09.29-14.26.47:518][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.47:579][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.26.47:616][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.47:655][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2018.09.29-14.26.48:695][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.26.54:082][237]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-14.26.54:132][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-14.26.54:132][237]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 6:26:54 PM)
+[2018.09.29-14.26.54:132][237]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-14.26.54:134][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001675s)
+[2018.09.29-14.26.54:135][237]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-14.26.54:135][237]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2018.09.29-14.26.54:135][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002951s)
+[2018.09.29-14.26.54:207][237]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-14.26.54:209][237]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-16.26.54
+[2018.09.29-14.26.54:209][237]LogWorld: Bringing up level for play took: 0.000732
+[2018.09.29-14.26.54:224][237]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.636
+[2018.09.29-14.26.58:045][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.58:103][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-14.26.58:139][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-14.26.58:178][397]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2018.09.29-14.26.59:399][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-14.27.02:009][452]LogSlate: Window 'Save Level As' being destroyed
+[2018.09.29-14.27.05:559][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-14.27.05:644][553]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes8B07E4574B5FBF3AB4F6F8B78F5AF419.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-14.27.31:501][721]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-14.27.31:507][721]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-14.27.57:175][881]LogSlate: Window 'Save Content' being destroyed
+[2018.09.29-14.27.57:239][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/FloorTile_Sprite" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/FloorTile_Sprite.uasset" SILENT=true
+[2018.09.29-14.27.57:364][881]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/FloorTile_Sprite4906551C4CE06AE1BF1414B9BE5EDA19.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/FloorTile_Sprite.uasset'
+[2018.09.29-14.27.57:383][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Idle" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/Idle.uasset" SILENT=true
+[2018.09.29-14.27.57:415][881]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Idle8FA66EA94096795FEE734296B39E15F6.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/Idle.uasset'
+[2018.09.29-14.27.57:454][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/IdleDescartes_Sprite_0" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes_Sprite_0.uasset" SILENT=true
+[2018.09.29-14.27.57:471][881]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/IdleDescartes_Sprite_0A24F01A143A584C123B3E097B19C0A8F.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes_Sprite_0.uasset'
+[2018.09.29-14.27.57:485][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/IdleDescartes_Sprite_1" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes_Sprite_1.uasset" SILENT=true
+[2018.09.29-14.27.57:545][881]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/IdleDescartes_Sprite_18211B3A7466E61500AF554AD186E28D6.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Sprites/IdleDescartes_Sprite_1.uasset'
+[2018.09.29-14.27.59:601][881]LogSlate: Window 'Save Level As' being destroyed
+[2018.09.29-14.28.04:117][970]LogSlate: Window 'Save Content' being destroyed
+[2018.09.29-14.28.04:378][970]LogSlate: Window 'Descartes - Unreal Editor' being destroyed
+[2018.09.29-14.28.05:652][971]Cmd: QUIT_EDITOR
+[2018.09.29-14.28.06:799][971]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.29-14.28.07:633][971]LogExit: Preparing to exit.
+[2018.09.29-14.28.46:649][971]LogExit: Editor shut down
+[2018.09.29-14.28.46:715][971]LogExit: Transaction tracking system shut down
+[2018.09.29-14.29.02:276][971]LogExit: Object subsystem successfully closed.
+[2018.09.29-14.29.04:343][971]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.29-14.29.04:866][971]LogD3D11RHI: Shutdown
+[2018.09.29-14.29.04:867][971]LogD3D11RHI: CleanupD3DDevice
+[2018.09.29-14.29.05:217][971]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.29-14.29.09:223][971]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2018.09.29-14.29.09:223][971]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2018.09.29-14.29.09:230][971]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2018.09.29-14.29.09:230][971]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.09.29-14.29.09:263][971]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2018.09.29-14.29.09:264][971]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2018.09.29-14.29.09:883][971]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2018.09.29-14.29.09:883][971]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2018.09.29-14.29.09:883][971]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2018.09.29-14.29.09:894][971]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2018.09.29-14.29.09:928][971]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.09.29-14.29.09:933][971]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.09.29-14.29.09:942][971]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.09.29-14.29.09:997][971]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.09.29-14.29.10:007][971]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.09.29-14.29.10:007][971]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.09.29-14.29.10:007][971]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.09.29-14.29.10:007][971]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.09.29-14.29.10:007][971]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.09.29-14.29.10:019][971]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.09.29-14.29.10:024][971]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.09.29-14.29.10:030][971]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.09.29-14.29.10:030][971]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.09.29-14.29.10:030][971]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.09.29-14.29.10:037][971]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.09.29-14.29.10:062][971]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.09.29-14.29.10:093][971]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.09.29-14.29.10:093][971]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.09.29-14.29.10:136][971]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.09.29-14.29.10:137][971]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.09.29-14.29.10:137][971]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.09.29-14.29.10:162][971]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.09.29-14.29.10:163][971]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.09.29-14.29.10:181][971]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.09.29-14.29.10:204][971]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.09.29-14.29.10:220][971]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.09.29-14.29.10:249][971]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.09.29-14.29.10:282][971]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.09.29-14.29.10:282][971]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.09.29-14.29.10:325][971]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.09.29-14.29.10:325][971]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.09.29-14.29.10:325][971]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.09.29-14.29.11:256][971]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.09.29-14.29.11:289][971]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.09.29-14.29.11:290][971]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.09.29-14.29.11:290][971]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.09.29-14.29.11:290][971]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.09.29-14.29.11:312][971]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.09.29-14.29.11:327][971]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.09.29-14.29.11:531][971]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.09.29-14.29.12:038][971]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.09.29-14.29.12:038][971]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.09.29-14.29.12:038][971]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.09.29-14.29.12:096][971]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.09.29-14.29.12:112][971]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.09.29-14.29.12:148][971]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.09.29-14.29.12:148][971]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.09.29-14.29.12:239][971]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.09.29-14.29.12:239][971]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.09.29-14.29.12:503][971]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.09.29-14.29.12:524][971]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.09.29-14.29.12:536][971]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.09.29-14.29.12:546][971]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.09.29-14.29.12:560][971]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.09.29-14.29.12:860][971]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.09.29-14.29.12:893][971]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.09.29-14.29.12:931][971]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.09.29-14.29.13:158][971]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.09.29-14.29.13:158][971]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.09.29-14.29.13:205][971]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.09.29-14.29.13:205][971]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.09.29-14.29.13:253][971]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.09.29-14.29.13:253][971]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.09.29-14.29.13:259][971]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.09.29-14.29.13:871][971]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.09.29-14.29.13:871][971]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.09.29-14.29.13:886][971]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.09.29-14.29.13:886][971]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.29-14.29.13:896][971]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.29-14.29.13:954][971]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.29-14.29.13:954][971]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.29-14.29.13:962][971]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.29-14.29.14:582][971]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.29-14.29.14:582][971]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.29-14.29.14:593][971]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.29-14.29.14:692][971]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.29-14.29.14:701][971]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.29-14.29.14:712][971]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.29-14.29.14:719][971]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.29-14.29.14:719][971]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.09.29-14.29.14:719][971]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.09.29-14.29.14:738][971]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.09.29-14.29.14:794][971]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.09.29-14.29.14:794][971]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.09.29-14.29.14:833][971]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.09.29-14.29.14:864][971]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.09.29-14.29.14:864][971]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.09.29-14.29.14:864][971]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.09.29-14.29.14:869][971]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.09.29-14.29.15:032][971]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.09.29-14.29.15:032][971]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.09.29-14.29.15:032][971]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.09.29-14.29.15:032][971]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.09.29-14.29.15:044][971]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.29-14.29.15:044][971]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.29-14.29.15:044][971]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.29-14.29.15:044][971]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.29-14.29.15:066][971]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.29-14.29.15:505][971]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.29-14.29.15:506][971]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.29-14.29.15:506][971]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.29-14.29.15:797][971]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.29-14.29.15:844][971]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.29-14.29.15:844][971]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.29-14.29.15:857][971]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.29-14.29.15:861][971]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.29-14.29.15:861][971]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.29-14.29.15:862][971]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.29-14.29.15:894][971]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.29-14.29.15:894][971]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.29-14.29.16:124][971]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.29-14.29.16:909][971]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.29-14.29.16:957][971]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.29-14.29.16:988][971]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.29-14.29.17:026][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.29-14.29.17:026][971]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.29-14.29.17:026][971]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.29-14.29.17:026][971]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.29-14.29.17:103][971]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.29-14.29.17:118][971]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.29-14.29.17:118][971]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.29-14.29.17:118][971]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.29-14.29.17:119][971]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.29-14.29.17:228][971]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.29-14.29.17:228][971]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.29-14.29.17:229][971]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.29-14.29.17:246][971]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.29-14.29.17:246][971]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.29-14.29.17:347][971]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.29-14.29.17:460][971]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.29-14.29.17:460][971]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.29-14.29.17:606][971]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.29-14.29.17:648][971]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.29-14.29.17:648][971]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.29-14.29.17:648][971]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.29-14.29.17:687][971]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.29-14.29.17:960][971]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.29-14.29.17:988][971]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.29-14.29.18:033][971]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.29-14.29.18:115][971]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.29-14.29.18:265][971]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.29-14.29.18:398][971]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.29-14.29.18:454][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.29-14.29.18:454][971]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.29-14.29.18:513][971]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.29-14.29.18:514][971]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.29-14.29.18:538][971]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.29-14.29.18:685][971]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.29-14.29.18:811][971]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.29-14.29.18:838][971]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.29-14.29.18:838][971]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.29-14.29.18:936][971]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.29-14.29.18:946][971]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.29-14.29.18:946][971]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.29-14.29.18:946][971]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.29-14.29.18:955][971]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.29-14.29.19:054][971]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.29-14.29.19:054][971]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.29-14.29.19:124][971]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.29-14.29.19:177][971]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.29-14.29.19:250][971]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.29-14.29.19:250][971]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.29-14.29.19:375][971]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.29-14.29.19:553][971]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.29-14.29.20:010][971]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.29-14.29.20:010][971]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.29-14.29.20:117][971]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.29-14.29.20:117][971]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.29-14.29.20:551][971]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.29-14.29.20:572][971]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.29-14.29.20:573][971]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.29-14.29.20:573][971]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.29-14.29.20:583][971]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.29-14.29.20:583][971]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.29-14.29.20:583][971]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.29-14.29.20:583][971]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.29-14.29.20:583][971]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.29-14.29.20:594][971]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.29-14.29.20:642][971]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.29-14.29.20:642][971]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.29-14.29.20:718][971]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.29-14.29.20:985][971]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.29-14.29.20:985][971]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.29-14.29.21:085][971]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.29-14.29.21:186][971]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.29-14.29.21:320][971]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.29-14.29.21:389][971]LogDerivedDataCache: Shutdown
+[2018.09.29-14.29.21:389][971]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.29-14.29.21:403][971]LogXGEController: Cleaning working directory: C:/Users/lsjos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.29-14.29.21:438][971]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.29-14.29.21:488][971]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.29-14.29.21:517][971]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.29-14.29.21:525][971]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.29-14.29.21:528][971]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.29-14.29.21:528][971]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.29-14.29.21:551][971]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.29-14.29.21:551][971]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.29-14.29.21:552][971]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.29-14.29.21:552][971]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.29-14.29.21:566][971]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.29-14.29.21:586][971]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.29-14.29.21:586][971]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.29-14.29.21:602][971]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.29-14.29.21:623][971]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.29-14.29.22:288][971]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.29-14.29.22:288][971]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.29-14.29.22:848][971]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.29-14.29.22:848][971]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.29-14.29.24:323][971]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.29-14.29.24:323][971]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.29-14.29.24:324][971]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.29-14.29.24:324][971]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.29-14.29.24:324][971]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.29-14.29.24:340][971]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.29-14.29.24:341][971]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.29-14.29.24:341][971]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.29-14.29.24:341][971]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.29-14.29.24:341][971]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.29-14.29.24:341][971]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.29-14.29.24:429][971]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.29-14.29.24:429][971]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.29-14.29.24:450][971]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.29-14.29.24:484][971]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.29-14.29.24:484][971]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.29-14.29.24:484][971]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.29-14.29.24:484][971]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.29-14.29.24:514][971]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.29-14.29.24:696][971]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.29-14.29.25:186][971]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.29-14.29.25:202][971]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.29-14.29.25:202][971]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2C2555F7-4E10-20EF-CB02-658100E8F9A7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.2-4302132%2B%2B%2BUE4%2BRelease-4.20&UserID=5ee5d0c745df543c902739adcb64e28e%7C747708c68147438aaccf8271baca1003%7C09d8cce8-7227-4543-a746-110633e4dc70&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.29-14.29.25:292][971]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.29-14.29.25:346][971]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.29-14.29.25:410][971]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.29-14.29.25:411][971]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.29-14.29.25:431][971]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.29-14.29.25:458][971]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.29-14.29.25:500][971]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.29-14.29.25:601][971]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.29-14.29.25:601][971]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.29-14.29.25:601][971]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.29-14.29.25:601][971]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.29-14.29.25:886][971]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.29-14.29.25:909][971]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.29-14.29.25:910][971]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.29-14.29.25:923][971]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.29-14.29.25:923][971]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.29-14.29.25:923][971]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.29-14.29.25:923][971]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.29-14.29.25:933][971]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.29-14.29.25:933][971]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.29-14.29.25:941][971]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.29-14.29.25:941][971]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.29-14.29.26:011][971]LogExit: Exiting.
+[2018.09.29-14.29.26:742][971]Log file closed, 09/29/18 16:29:26
