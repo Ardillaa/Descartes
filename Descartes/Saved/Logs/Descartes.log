@@ -1,14 +1,16 @@
-﻿Log file open, 09/28/18 22:24:02
+﻿Log file open, 09/29/18 09:54:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Descartes
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.447558
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 2.838882
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.282s to configure plugins.
+LogStreaming: Display: Took  1.425s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -112,17 +114,17 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 8.1 (), CPU:       Intel(R) Core(TM) i7-3630QM CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4000
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: OS: Windows 10 (), CPU:        Intel(R) Core(TM) i3-3110M CPU @ 2.40GHz, GPU: Intel(R) HD Graphics 4000
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Programas/UE4/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -145,479 +147,581 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.28-20.24.03:562][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.28-20.24.03:562][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.28-20.24.03:596][  0]LogHAL: Display: Platform has ~ 6 GB [6322376704 / 8589934592 / 6], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.28-20.24.03:597][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.28-20.24.03:597][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.28-20.24.03:598][  0]LogInit: Computer: DILEGEN
-[2018.09.28-20.24.03:598][  0]LogInit: User: Enrique
-[2018.09.28-20.24.03:598][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.28-20.24.03:598][  0]LogInit: High frequency timer resolution =2.338448 MHz
-[2018.09.28-20.24.03:600][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
-[2018.09.28-20.24.03:600][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.28-20.24.03:600][  0]LogMemory: Process Physical Memory: 98.47 MB used, 98.47 MB peak
-[2018.09.28-20.24.03:600][  0]LogMemory: Process Virtual Memory: 89.38 MB used, 89.38 MB peak
-[2018.09.28-20.24.03:600][  0]LogMemory: Physical Memory: 2542.05 MB used,  3487.44 MB free, 6029.49 MB total
-[2018.09.28-20.24.03:600][  0]LogMemory: Virtual Memory: 487.61 MB used,  3487.44 MB free, 134217728.00 MB total
-[2018.09.28-20.24.03:645][  0]LogInit: Using OS detected language (es-ES).
-[2018.09.28-20.24.03:646][  0]LogInit: Using OS detected locale (es-ES).
-[2018.09.28-20.24.03:647][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2018.09.28-20.24.04:797][  0]LogStreaming: Display: Took  1.152s to InitEngineTextLocalization.
-[2018.09.28-20.24.04:798][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.28-20.24.04:877][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.28-20.24.04:877][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.28-20.24.05:468][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.28-20.24.05:468][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.28-20.24.05:572][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
-[2018.09.28-20.24.05:573][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.09.28-20.24.05:609][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 610M      ' (Feature Level 11_0)
-[2018.09.28-20.24.05:609][  0]LogD3D11RHI:       1996/0/2047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.09.28-20.24.05:612][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.28-20.24.05:612][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.28-20.24.05:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2018.09.28-20.24.05:624][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.28-20.24.05:624][  0]LogD3D11RHI:     GPU DeviceId: 0x1058 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.28-20.24.05:624][  0]LogWindows: EnumDisplayDevices:
-[2018.09.28-20.24.05:624][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
-[2018.09.28-20.24.05:625][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.09.28-20.24.05:625][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
-[2018.09.28-20.24.05:626][  0]LogWindows:    3. 'NVIDIA GeForce 610M      ' (P:0 D:0)
-[2018.09.28-20.24.05:626][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2018.09.28-20.24.05:626][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 610M      
-[2018.09.28-20.24.05:626][  0]LogD3D11RHI:   Driver Version: 353.84 (internal:10.18.13.5384, unified:353.84)
-[2018.09.28-20.24.05:626][  0]LogD3D11RHI:      Driver Date: 8-7-2015
-[2018.09.28-20.24.05:626][  0]LogRHI: Texture pool is 1397 MB (70% of 1996 MB)
-[2018.09.28-20.24.05:655][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
-[2018.09.28-20.24.05:655][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
-[2018.09.28-20.24.05:655][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.28-20.24.05:683][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.09.28-20.24.05:685][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/Enrique/Documents/GameJam/Descartes/Intermediate/Shaders/WorkingDirectory/5308/).
-[2018.09.28-20.24.05:685][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Enrique/AppData/Local/Temp/UnrealShaderWorkingDir/94CB322E4B7DE28A5181B68D065ACE72/'.
-[2018.09.28-20.24.06:454][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.28-20.24.06:498][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.28-20.24.06:538][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.28-20.24.06:582][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.28-20.24.06:632][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.28-20.24.06:673][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.28-20.24.06:716][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.28-20.24.06:761][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.28-20.24.06:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:039][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:040][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.28-20.24.07:043][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.28-20.24.07:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.28-20.24.07:159][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.28-20.24.07:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.28-20.24.07:245][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.28-20.24.07:283][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.28-20.24.07:321][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.28-20.24.07:362][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.28-20.24.07:401][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.28-20.24.07:431][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.28-20.24.07:431][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.28-20.24.07:569][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.28-20.24.07:569][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.28-20.24.07:569][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.28-20.24.10:209][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.28-20.24.10:411][  0]LogDerivedDataCache: Loaded boot cache 0.20s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Enrique/Documents/GameJam/Descartes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.28-20.24.10:412][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.28-20.24.10:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Enrique/Documents/GameJam/Descartes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.28-20.24.10:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.28-20.24.10:467][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Enrique/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.28-20.24.10:481][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.28-20.24.10:547][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.28-20.24.10:551][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.28-20.24.10:552][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.28-20.24.10:724][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
-[2018.09.28-20.24.11:860][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.28-20.24.12:193][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.28-20.24.12:199][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.28-20.24.12:199][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.28-20.24.12:200][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.28-20.24.12:200][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.28-20.24.12:242][  0]LogNetVersion: Descartes 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3270631910)
-[2018.09.28-20.24.13:477][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.207558 seconds
-[2018.09.28-20.24.13:490][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.28-20.24.13:490][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.28-20.24.13:490][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.28-20.24.15:248][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.28-20.24.15:290][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.28-20.24.15:515][  0]SourceControl: El control de código fuente está desactivado
-[2018.09.28-20.24.15:515][  0]SourceControl: El control de código fuente está desactivado
-[2018.09.28-20.24.15:517][  0]SourceControl: El control de código fuente está desactivado
-[2018.09.28-20.24.15:519][  0]SourceControl: El control de código fuente está desactivado
-[2018.09.28-20.24.15:738][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.28-20.24.15:791][  0]LogOcInput: OculusInput pre-init called
-[2018.09.28-20.24.15:897][  0]LogEngine: Initializing Engine...
-[2018.09.28-20.24.15:899][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.28-20.24.15:901][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.28-20.24.16:364][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.28-20.24.16:383][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.28-20.24.16:436][  0]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.28-20.24.16:461][  0]LogInit: FAudioDevice initialized.
-[2018.09.28-20.24.16:462][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.28-20.24.16:559][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Enrique/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.28-20.24.16:573][  0]LogInit: Texture streaming: Enabled
-[2018.09.28-20.24.16:597][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.28-20.24.16:617][  0]LogInit: Transaction tracking system initialized
-[2018.09.28-20.24.16:652][  0]BlueprintLog: New page: Cargar el editor
-[2018.09.28-20.24.16:971][  0]LocalizationService: Localization service is disabled
-[2018.09.28-20.24.17:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/' took 0.01s
-[2018.09.28-20.24.17:432][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.28-20.24.17:432][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.28-20.24.17:433][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.28-20.24.17:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.28-20.24.17:675][  0]SourceControl: El control de código fuente está desactivado
-[2018.09.28-20.24.17:675][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.28-20.24.17:676][  0]LightingResults: New page: Diseñar la iluminación
-[2018.09.28-20.24.17:680][  0]MapCheck: New page: Revisión del mapa
-[2018.09.28-20.24.17:680][  0]LightingResults: New page: Diseñar la iluminación
-[2018.09.28-20.24.18:146][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.09.28-20.24.18:158][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.28-20.24.18:201][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.28-20.24.18:334][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 131,631ms to complete.
-[2018.09.28-20.24.18:334][  0]LogFileHelpers: Loading map 'Template_Default' took 0.659
-[2018.09.28-20.24.18:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-20.24.18:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-20.24.18:599][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-20.24.18:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-20.24.18:654][  0]LogCollectionManager: Loaded 0 collections in 0.002984 seconds
-[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Saved/Collections/' took 0.01s
-[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/Developers/Enrique/Collections/' took 0.01s
-[2018.09.28-20.24.18:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Enrique/Documents/GameJam/Descartes/Content/Collections/' took 0.01s
-[2018.09.28-20.24.18:735][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.09.28-20.24.18:777][  0]LogContentBrowser: Native class hierarchy populated in 0.0392 seconds. Added 2572 classes and 603 folders.
-[2018.09.28-20.24.18:802][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.09.28-20.24.19:831][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.09.28-20.24.19:878][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.09.28-20.24.19:958][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.28-20.24.19:967][  0]LogSlate: Took 0.000597 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.28-20.24.20:007][  0]LogSlate: Took 0.013167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.28-20.24.20:324][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
-[2018.09.28-20.24.20:674][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-20.24.20:801][  0]LogSlate: Window 'Tutoriales' being destroyed
-[2018.09.28-20.24.20:841][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.09.28-20.24.20:841][  0]LogLoad: (Engine Initialization) Total time: 20.80 seconds
-[2018.09.28-20.24.20:841][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.28-20.24.20:920][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.28-20.24.29:682][235]LogAssetRegistry: Asset discovery search completed in 18.9818 seconds
-[2018.09.28-20.24.29:687][235]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.09.28-20.24.29:687][235]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000162 seconds (updated 0 objects)
-[2018.09.28-20.24.33:762][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.24.40:085][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.24.56:385][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.09.28-20.25.00:454][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.25.06:332][460]LogSlate: Took 0.000493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.28-20.25.46:470][ 19]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.28-20.25.46:492][ 19]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Background.Background
-[2018.09.28-20.25.46:728][ 19]LogSlate: Took 0.010792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.28-20.25.49:070][ 68]LogSlate: Window 'Background*' being destroyed
-[2018.09.28-20.25.49:087][ 68]LogSlate: Window 'Background*' being destroyed
-[2018.09.28-20.25.53:691][210]LogAssetEditorManager: Opening Asset editor for PaperSprite /Game/Sprites/Background.Background
-[2018.09.28-20.26.11:453][571]LogRenderer: Reallocating scene render targets to support 1084x608 Format 10 NumSamples 1 (Frame:238).
-[2018.09.28-20.26.21:325][743]LogSlate: Window 'Save Asset As' being destroyed
-[2018.09.28-20.26.29:988][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.26.30:086][962]LogSlate: Window 'Background*' being destroyed
-[2018.09.28-20.26.30:105][962]LogSlate: Window 'Background*' being destroyed
-[2018.09.28-20.27.20:525][ 68]LogSlate: Window 'Escoger clase padre' being destroyed
-[2018.09.28-20.27.27:611][321]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
-[2018.09.28-20.27.29:618][321]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
-[2018.09.28-20.27.34:787][354]LogSlate: Took 0.009970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.28-20.27.45:054][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.27.45:229][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-20.27.45:281][548]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/DescartesC735B36E4CBA7483CF1A4A8E5BAC7E64.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-20.34.21:520][636]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.090
-[2018.09.28-20.34.21:524][636]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Background] ([1] browsable assets)...
-[2018.09.28-20.34.21:554][636]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Background.Background]
-[2018.09.28-20.34.21:554][636]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Background]
-[2018.09.28-20.34.21:554][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Sprites/Background_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.09.28-20.34.21:585][636]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Background_Auto1BFEBC8654B83863452E1EE90EC0BA30F.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Sprites/Background_Auto1.uasset'
-[2018.09.28-20.34.21:587][636]LogFileHelpers: Auto-saving content packages took 0.065
-[2018.09.28-20.59.35:817][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-20.59.52:366][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.00.25:481][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.00.37:202][703]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2018.09.28-21.00.37:203][703]LogSynthBenchmark: Display: ===============
-[2018.09.28-21.00.37:203][703]LogSynthBenchmark: Display: Main Processor:
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:          ... 0.047629 s/Run 'RayIntersect'
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:          ... 0.055759 s/Run 'Fractal'
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display: 
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 6
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
-[2018.09.28-21.00.37:306][703]LogSynthBenchmark: Display:   CPU Perf Index 0: 53.8 (weight 1.00)
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   CPU Perf Index 1: 51.3 (weight 1.50)
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:  
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display: Graphics:
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Adapter Name: 'NVIDIA GeForce 610M      '
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Vendor Id: 0x10DE
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Device Id: 0x1058
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   Device Revision: 0xA1
-[2018.09.28-21.00.37:307][703]LogSynthBenchmark: Display:   GPU Memory: 1997/0/2048 MB
-[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:   GPU first test: 0.13s
-[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.094 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.082 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
-[2018.09.28-21.00.38:870][703]LogSynthBenchmark: Display:          ... 0.416 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
-[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.016 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.054 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
-[2018.09.28-21.00.38:871][703]LogSynthBenchmark: Display:          ... 0.092 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:   GPU second test: 1.34s
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.129 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.086 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.678 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.014 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.069 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:   GPU Final Results:
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.111 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.129 s/GigaPix, Confidence=100% 'TexHeavy'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.086 s/GigaPix, Confidence=100% 'DepTexHeavy'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.678 s/GigaPix, Confidence=100% 'FillOnly'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.014 s/GigaPix, Confidence=100% 'Bandwidth'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.069 s/GigaVert, Confidence=100% 'VertThroughPut1'
-[2018.09.28-21.00.41:495][703]LogSynthBenchmark: Display:          ... 0.077 s/GigaVert, Confidence=100% 'VertThroughPut2'
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display: 
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 0: 2.4 (weight 1.00)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 1: 1.7 (weight 0.10)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 2: 2.2 (weight 0.10)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 3: 2.7 (weight 3.00)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 4: 1.3 (weight 1.00)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 5: 4.5 (weight 0.00)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPU Perf Index 6: 4.4 (weight 0.00)
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   GPUIndex: 2.3
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:   CPUIndex: 52.3
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display: 
-[2018.09.28-21.00.41:496][703]LogSynthBenchmark: Display:          ... Total Time: 4.293536 sec
-[2018.09.28-21.00.42:683][704]LogRenderer: Reallocating scene render targets to support 1084x608 Format 9 NumSamples 1 (Frame:4035).
-[2018.09.28-21.00.42:890][706]LogContentStreaming: Texture pool size now 400 MB
-[2018.09.28-21.01.28:296][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-21.01.28:474][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.088
-[2018.09.28-21.01.28:479][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Descartes] ([1] browsable assets)...
-[2018.09.28-21.01.28:479][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Descartes]
-[2018.09.28-21.01.28:557][102]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes_Auto25841D08246A9891369234EB3EAFA895D.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto2.uasset'
-[2018.09.28-21.01.28:560][102]LogFileHelpers: Auto-saving content packages took 0.083
-[2018.09.28-21.03.53:738][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.03.53:834][ 67]BlueprintLog: New page: Compilar Descartes
-[2018.09.28-21.03.55:090][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.03.55:145][ 86]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes5B8ED1BF49C9F57A672B83ACFD4657A7.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.29.21:279][900]LogSlate: Window 'Descartes' being destroyed
-[2018.09.28-21.29.21:318][900]LogSlate: Window 'Descartes' being destroyed
-[2018.09.28-21.29.36:477][569]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.28-21.30.22:879][930]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Enrique\Desktop\Top_Down_Survivor\Top_Down_Survivor\handgun\idle\survivor-idle_handgun_0.png)
-[2018.09.28-21.30.22:894][930]LogTexture: Display: Building textures: survivor-idle_handgun_0 (BGRA8, 253X216)
-[2018.09.28-21.30.29:714][237]LogSlate: Window 'Guardar contenido' being destroyed
-[2018.09.28-21.30.29:803][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/survivor-idle_handgun_0" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0.uasset" SILENT=true
-[2018.09.28-21.30.29:856][237]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_00E2113004D466FDC3FB927986D6A7D99.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0.uasset'
-[2018.09.28-21.30.45:210][998]LogSlate: Window 'Guardar contenido' being destroyed
-[2018.09.28-21.30.45:335][998]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_0_Sprite52EF60AC47115EA97C0E519777DDBB35.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite.uasset'
-[2018.09.28-21.30.52:647][426]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
-[2018.09.28-21.31.06:325][923]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.31.36:107][888]LogSlate: Window 'Save Asset As' being destroyed
-[2018.09.28-21.31.44:331][888]LogSlate: Window 'Mensaje' being destroyed
-[2018.09.28-21.31.50:897][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.32.30:769][950]LogSlate: Window 'Guardar contenido' being destroyed
-[2018.09.28-21.32.30:828][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.32.30:902][950]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes4B2D8CFB44B92F62DABC40B1C49F1BB6.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.32.35:524][950]LogSlate: Window 'Mensaje' being destroyed
-[2018.09.28-21.32.35:537][950]EditorErrors: New page: Guardar salida
-[2018.09.28-21.32.35:538][950]EditorErrors: Warning: El activo '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite.uasset' no pudo guardarse porque solo se ha cargado parcialmente
-[2018.09.28-21.32.38:905][139]LogSlate: Window 'Registro del mensaje' being destroyed
-[2018.09.28-21.32.38:919][139]LogSlate: Window 'Registro del mensaje' being destroyed
-[2018.09.28-21.32.44:948][248]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.28-21.32.44:962][248]LogSlate: Window 'Descartes' being destroyed
-[2018.09.28-21.32.54:458][684]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
-[2018.09.28-21.33.02:014][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.33.46:705][805]LogSlate: Window 'Extract sprites' being destroyed
-[2018.09.28-21.33.50:077][954]LogSlate: Window 'Guardar contenido' being destroyed
-[2018.09.28-21.33.50:141][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.33.50:188][954]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes1BD67CB8426B152CC7B3869207BF301A.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.33.50:276][954]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/survivor-idle_handgun_0_Sprite_0E437D9024A89B7F3A40707BFC20B1048.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Sprites/survivor-idle_handgun_0_Sprite_0.uasset'
-[2018.09.28-21.34.10:576][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.34.10:672][950]BlueprintLog: New page: Compilar Descartes
-[2018.09.28-21.34.12:332][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.34.12:381][989]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes960B21B242D5F4C7AD5516B27AD91DBC.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.34.20:426][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.34.22:644][338]BlueprintLog: New page: Compilar Descartes
-[2018.09.28-21.34.23:836][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.34.23:884][357]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Descartes14327CAC417C21E146AAC5AEC60192D3.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.34.30:984][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.34.31:086][624]BlueprintLog: New page: Compilar Descartes
-[2018.09.28-21.34.32:274][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
-[2018.09.28-21.34.32:321][643]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/DescartesCC4B8F6A4A87A108AEFF1494A3A74F69.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/Descartes.uasset'
-[2018.09.28-21.35.00:461][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.35.11:957][135]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.09.28-21.35.12:188][137]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
-[2018.09.28-21.35.12:189][137]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.35.12:189][137]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.09.28-21.35.12:189][137]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.35.12:189][137]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.09.28-21.35.12:295][138]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.09.28-21.35.13:795][212]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.35.13:809][212]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.35.18:335][440]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.09.28-21.35.20:060][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.36.34:479][421]LogSlate: Window 'Escoger clase padre' being destroyed
-[2018.09.28-21.36.44:287][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.09.28-21.36.47:421][210]Cmd: DELETE
-[2018.09.28-21.36.47:421][210]Cmd: ACTOR DELETE
-[2018.09.28-21.36.47:438][210]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.09.28-21.36.47:504][210]LogEditorActor: Deleted 1 Actors (0.076 secs)
-[2018.09.28-21.36.48:703][325]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
-[2018.09.28-21.36.49:369][365]Cmd: DELETE
-[2018.09.28-21.36.49:369][365]Cmd: ACTOR DELETE
-[2018.09.28-21.36.49:375][365]LogEditorActor: Deleted Actor: SphereReflectionCapture
-[2018.09.28-21.36.49:448][365]LogEditorActor: Deleted 1 Actors (0.079 secs)
-[2018.09.28-21.36.50:149][429]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
-[2018.09.28-21.36.50:635][455]Cmd: DELETE
-[2018.09.28-21.36.50:635][455]Cmd: ACTOR DELETE
-[2018.09.28-21.36.50:640][455]LogEditorActor: Deleted Actor: SkyLight
-[2018.09.28-21.36.50:707][455]LogEditorActor: Deleted 1 Actors (0.073 secs)
-[2018.09.28-21.36.51:287][507]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
-[2018.09.28-21.36.51:757][529]Cmd: DELETE
-[2018.09.28-21.36.51:757][529]Cmd: ACTOR DELETE
-[2018.09.28-21.36.51:763][529]LogEditorActor: Deleted Actor: AtmosphericFog
-[2018.09.28-21.36.51:830][529]LogEditorActor: Deleted 1 Actors (0.072 secs)
-[2018.09.28-21.36.52:731][612]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2018.09.28-21.36.54:054][700]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.09.28-21.36.55:125][768]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2018.09.28-21.36.58:676][996]Cmd: DELETE
-[2018.09.28-21.36.58:677][996]Cmd: ACTOR DELETE
-[2018.09.28-21.36.58:680][996]LogEditorActor: Actor Light Source is referenced by Sky Sphere.
-[2018.09.28-21.36.58:690][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-21.37.00:124][996]LogSlate: Window 'Mensaje' being destroyed
-[2018.09.28-21.37.00:201][996]LogEditorActor: Deleted 0 Actors (1.524 secs)
-[2018.09.28-21.37.17:880][235]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GameBaseDescartes.GameBaseDescartes
-[2018.09.28-21.37.21:663][342]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.28-21.37.57:061][854]BlueprintLog: New page: Compilar GameBaseDescartes
-[2018.09.28-21.37.57:983][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameBaseDescartes" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/GameBaseDescartes.uasset" SILENT=true
-[2018.09.28-21.37.58:017][872]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/GameBaseDescartesECEE0D7F413D5D38BD4A858CCB4E76E2.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Content/Blueprints/GameBaseDescartes.uasset'
-[2018.09.28-21.38.12:072][471]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.09.28-21.38.13:534][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.38.13:633][572]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.28-21.38.13:694][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.28-21.38.13:717][572]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:38:13)
-[2018.09.28-21.38.13:717][572]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.09.28-21.38.13:724][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006358s)
-[2018.09.28-21.38.13:725][572]LogAIModule: Creating AISystem for world Untitled_1
-[2018.09.28-21.38.13:726][572]LogPlayLevel: PIE: World Init took: (0.002000s)
-[2018.09.28-21.38.13:726][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008760s)
-[2018.09.28-21.38.13:814][572]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.28-21.38.13:834][572]LogInit: FAudioDevice initialized.
-[2018.09.28-21.38.13:893][572]LogLoad: Game class is 'GameModeBase'
-[2018.09.28-21.38.13:908][572]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.38.13
-[2018.09.28-21.38.13:918][572]LogWorld: Bringing up level for play took: 0.012788
-[2018.09.28-21.38.14:027][572]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 10 classes and 0 folders.
-[2018.09.28-21.38.14:036][572]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 -0,042
-[2018.09.28-21.38.15:913][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.38.15:971][715]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.28-21.38.16:032][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.38.16:065][716]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.09.28-21.38.25:848][572]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.09.28-21.38.28:119][714]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-21.38.30:667][866]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.28-21.38.33:256][866]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.09.28-21.38.33:420][867]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
-[2018.09.28-21.38.33:421][867]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.38.33:423][867]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.09.28-21.38.33:423][867]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.38.33:423][867]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.09.28-21.38.33:423][867]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.09.28-21.39.32:179][993]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.28-21.40.29:171][796]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.40.29:184][796]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.40.30:435][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.40.30:549][877]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.28-21.40.30:590][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.28-21.40.30:591][877]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:40:30)
-[2018.09.28-21.40.30:591][877]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.09.28-21.40.30:597][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005702s)
-[2018.09.28-21.40.30:598][877]LogAIModule: Creating AISystem for world Untitled_1
-[2018.09.28-21.40.30:599][877]LogPlayLevel: PIE: World Init took: (0.001813s)
-[2018.09.28-21.40.30:599][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007839s)
-[2018.09.28-21.40.30:672][877]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.28-21.40.30:689][877]LogInit: FAudioDevice initialized.
-[2018.09.28-21.40.30:730][877]LogLoad: Game class is 'GameBaseDescartes_C'
-[2018.09.28-21.40.30:733][877]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.40.30
-[2018.09.28-21.40.30:734][877]LogWorld: Bringing up level for play took: 0.002384
-[2018.09.28-21.40.30:752][877]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 0,674
-[2018.09.28-21.40.33:563][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.40.33:619][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.28-21.40.33:685][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.40.33:714][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.09.28-21.40.40:502][741]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.28-21.40.40:542][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.28-21.40.40:543][741]PIE: New page: Sesión PIE (reproducción en el editor): Untitled_1 (29/9/2018 1:40:40)
-[2018.09.28-21.40.40:543][741]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
-[2018.09.28-21.40.40:548][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005006s)
-[2018.09.28-21.40.40:549][741]LogAIModule: Creating AISystem for world Untitled_1
-[2018.09.28-21.40.40:550][741]LogPlayLevel: PIE: World Init took: (0.001669s)
-[2018.09.28-21.40.40:550][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006987s)
-[2018.09.28-21.40.40:628][741]LogInit: XAudio2 using 'Altavoces (2- Dispositivo de High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.09.28-21.40.40:642][741]LogInit: FAudioDevice initialized.
-[2018.09.28-21.40.40:679][741]LogLoad: Game class is 'GameBaseDescartes_C'
-[2018.09.28-21.40.40:682][741]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.28-23.40.40
-[2018.09.28-21.40.40:683][741]LogWorld: Bringing up level for play took: 0.002336
-[2018.09.28-21.40.40:700][741]PIE: Tiempo de inicio de la reproducción en el editor para  /Temp/UEDPIE_0_Untitled_1 0,622
-[2018.09.28-21.40.43:558][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.40.43:655][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.40.43:709][973]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.28-21.40.43:772][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.28-21.40.43:808][974]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2018.09.28-21.40.51:123][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.28-21.40.56:272][565]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.09.28-21.40.56:421][566]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
-[2018.09.28-21.40.56:421][566]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.40.56:421][566]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.09.28-21.40.56:421][566]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.40.56:421][566]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.09.28-21.40.56:450][567]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.09.28-21.41.26:521][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.09.28-21.41.26:593][ 32]LogSavePackage: Moving '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Untitled_1_Auto368E620B643E358B3FB4263A7E8BA5211.tmp' to '../../../../../../Users/Enrique/Documents/GameJam/Descartes/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
-[2018.09.28-21.41.26:610][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.164
-[2018.09.28-21.41.26:611][ 32]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
-[2018.09.28-21.41.46:010][206]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.41.46:020][206]LogSlate: Window 'Ajustes del proyecto' being destroyed
-[2018.09.28-21.42.06:629][321]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.09.28-21.42.06:810][322]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
-[2018.09.28-21.42.06:810][322]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.42.06:810][322]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2018.09.28-21.42.06:810][322]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.09.28-21.42.06:810][322]LogTemp: BranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DILEGEN/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2018.09.28-21.42.06:810][322]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Enrique\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.29-07.54.14:323][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.29-07.54.14:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.29-07.54.14:417][  0]LogHAL: Display: Platform has ~ 4 GB [3871174656 / 4294967296 / 4], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.29-07.54.14:417][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.29-07.54.14:417][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.29-07.54.14:463][  0]LogInit: Computer: PORTATIL
+[2018.09.29-07.54.14:463][  0]LogInit: User: lsjos
+[2018.09.29-07.54.14:463][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.09.29-07.54.14:463][  0]LogInit: High frequency timer resolution =2.338448 MHz
+[2018.09.29-07.54.14:463][  0]LogMemory: Memory total: Physical=3.6GB (4GB approx)
+[2018.09.29-07.54.14:463][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.29-07.54.14:463][  0]LogMemory: Process Physical Memory: 100.19 MB used, 100.19 MB peak
+[2018.09.29-07.54.14:463][  0]LogMemory: Process Virtual Memory: 83.95 MB used, 83.95 MB peak
+[2018.09.29-07.54.14:464][  0]LogMemory: Physical Memory: 2580.27 MB used,  1111.57 MB free, 3691.84 MB total
+[2018.09.29-07.54.14:464][  0]LogMemory: Virtual Memory: 4616.35 MB used,  1111.57 MB free, 134217728.00 MB total
+[2018.09.29-07.54.15:812][  0]LogInit: Using OS detected language (es-ES).
+[2018.09.29-07.54.15:812][  0]LogInit: Using OS detected locale (es-ES).
+[2018.09.29-07.54.16:015][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2018.09.29-07.54.17:557][  0]LogStreaming: Display: Took  1.745s to InitEngineTextLocalization.
+[2018.09.29-07.54.17:557][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.29-07.54.18:189][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.29-07.54.18:189][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.29-07.54.24:722][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.29-07.54.24:722][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.29-07.54.24:728][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2018.09.29-07.54.24:728][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.09.29-07.54.24:866][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.29-07.54.24:866][  0]LogD3D11RHI:       0/0/1845 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.29-07.54.24:866][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.29-07.54.24:875][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.29-07.54.24:875][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.29-07.54.24:875][  0]LogWindows: EnumDisplayDevices:
+[2018.09.29-07.54.24:875][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2018.09.29-07.54.24:876][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.29-07.54.24:876][  0]LogWindows:    2. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2018.09.29-07.54.24:877][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2018.09.29-07.54.24:877][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2018.09.29-07.54.24:877][  0]LogD3D11RHI:   Driver Version: 10.18.10.4252 (internal:10.18.10.4252, unified:10.18.10.4252)
+[2018.09.29-07.54.24:877][  0]LogD3D11RHI:      Driver Date: 7-10-2015
+[2018.09.29-07.54.24:877][  0]LogRHI: Texture pool is 627 MB (70% of 896 MB)
+[2018.09.29-07.54.24:881][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.29-07.54.24:906][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.09.29-07.54.24:908][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Intermediate/Shaders/WorkingDirectory/9356/).
+[2018.09.29-07.54.24:908][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lsjos/AppData/Local/Temp/UnrealShaderWorkingDir/D6B62D9149310480A62B698D910525DB/'.
+[2018.09.29-07.54.27:613][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.29-07.54.27:664][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.29-07.54.27:715][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.29-07.54.27:782][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.29-07.54.27:852][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.29-07.54.27:896][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.29-07.54.27:933][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.29-07.54.27:970][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.29-07.54.28:020][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:204][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.29-07.54.28:286][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.29-07.54.28:541][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.29-07.54.28:541][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.29-07.54.28:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.29-07.54.28:691][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.29-07.54.28:763][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.29-07.54.28:806][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.29-07.54.28:854][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.29-07.54.28:916][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.29-07.54.29:089][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.29-07.54.29:089][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.29-07.54.31:097][  0]LogXGEController: Cleaning working directory: C:/Users/lsjos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.09.29-07.54.31:098][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.29-07.54.31:098][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.29-07.54.31:112][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.29-07.54.40:243][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.29-07.54.41:433][  0]LogDerivedDataCache: Loaded boot cache 1.18s 87MB C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.29-07.54.41:435][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.29-07.54.41:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.29-07.54.41:435][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.29-07.54.41:435][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.29-07.54.41:435][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.29-07.54.41:548][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.29-07.54.41:605][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lsjos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.29-07.54.41:605][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.29-07.54.41:605][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.29-07.54.41:942][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.29-07.54.42:002][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.29-07.54.42:128][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.29-07.54.42:828][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.09.29-07.54.49:112][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.29-07.54.52:724][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.29-07.54.54:045][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.29-07.54.54:088][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.29-07.54.54:209][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.29-07.54.54:209][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.29-07.54.57:009][  0]LogNetVersion: Descartes 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3270631910)
+[2018.09.29-07.55.19:472][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.247282 seconds
+[2018.09.29-07.55.19:776][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.29-07.55.19:776][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.29-07.55.19:791][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.29-07.55.45:176][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.29-07.55.45:225][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.29-07.55.47:708][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.29-07.55.47:709][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.29-07.55.47:955][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.29-07.55.48:141][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.29-07.55.54:484][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.29-07.55.55:562][  0]LogOcInput: OculusInput pre-init called
+[2018.09.29-07.55.58:092][  0]LogEngine: Initializing Engine...
+[2018.09.29-07.55.58:342][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.29-07.55.58:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.031 s
+[2018.09.29-07.55.58:511][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.29-07.55.58:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.009 s
+[2018.09.29-07.55.58:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.29-07.55.59:651][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.29-07.56.02:850][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.29-07.56.04:360][  0]LogInit: No audio devices found!
+[2018.09.29-07.56.04:447][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.29-07.56.06:796][  0]LogDerivedDataCache: Saved boot cache 2.35s 71MB C:/Users/lsjos/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.29-07.56.06:871][  0]LogInit: Texture streaming: Enabled
+[2018.09.29-07.56.07:917][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.29-07.56.12:276][  0]LogInit: Transaction tracking system initialized
+[2018.09.29-07.56.13:970][  0]BlueprintLog: New page: Cargar el editor
+[2018.09.29-07.56.18:908][  0]LocalizationService: Localization service is disabled
+[2018.09.29-07.56.25:790][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/' took 0.07s
+[2018.09.29-07.56.25:790][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.29-07.56.25:790][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.29-07.56.25:952][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.29-07.56.25:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.29-07.56.25:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.29-07.56.25:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.29-07.56.25:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.29-07.56.37:720][  0]SourceControl: El control de código fuente está desactivado
+[2018.09.29-07.56.39:881][  0]LogSlate: Took 0.056004 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.29-07.56.58:564][  0]LogSlate: Window 'Recuperar los paquetes' being destroyed
+[2018.09.29-07.56.58:599][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.29-07.56.58:824][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.29-07.56.58:941][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.29-07.56.59:075][  0]LightingResults: New page: Diseñar la iluminación
+[2018.09.29-07.57.00:184][  0]MapCheck: New page: Revisión del mapa
+[2018.09.29-07.57.00:184][  0]LightingResults: New page: Diseñar la iluminación
+[2018.09.29-07.57.10:167][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-07.57.12:387][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.29-07.57.14:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.29-07.57.14:588][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 379,372ms to complete.
+[2018.09.29-07.57.14:599][  0]LogFileHelpers: Loading map 'Template_Default' took 15.759
+[2018.09.29-07.57.21:478][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-07.57.21:693][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-07.57.21:705][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-07.57.21:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-07.57.22:190][  0]LogCollectionManager: Loaded 0 collections in 0.001791 seconds
+[2018.09.29-07.57.23:335][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Collections/' took 0.01s
+[2018.09.29-07.57.23:335][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Developers/lsjos/Collections/' took 0.01s
+[2018.09.29-07.57.23:335][  0]LogFileCache: Scanning file cache for directory 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Collections/' took 0.01s
+[2018.09.29-07.57.23:335][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.29-07.57.23:732][  0]LogContentBrowser: Native class hierarchy populated in 0.3101 seconds. Added 2572 classes and 603 folders.
+[2018.09.29-07.57.24:155][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.29-07.57.28:673][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.29-07.57.28:963][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.09.29-07.57.30:995][  0]LogSlate: Took 0.033160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.29-07.57.31:151][  0]LogSlate: Took 0.086695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.29-07.57.32:271][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2018.09.29-07.57.37:388][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.29-07.57.37:388][  0]LogLoad: (Engine Initialization) Total time: 238.58 seconds
+[2018.09.29-07.57.37:388][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.29-07.57.38:110][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.09.29-07.57.41:734][  0]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.29-07.57.43:294][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.29-07.57.44:527][  0]LogSlate: Took 0.106709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-07.57.53:795][  2]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-07.57.54:413][  4]LogAssetRegistry: Asset discovery search completed in 191.6078 seconds
+[2018.09.29-07.57.54:508][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.29-07.57.54:508][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2018.09.29-07.57.56:510][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-07.58.57:536][208]LogTexture: Display: Building textures: survivor-idle_handgun_0 (BGRA8, 253X216)
+[2018.09.29-07.58.57:586][208]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.29-07.59.01:553][208]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2018.09.29-07.59.16:362][208]LogSlate: Took 0.033711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.29-08.00.25:079][845]LogSlate: Took 0.145600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.09.29-08.00.25:281][846]LogSlate: Took 0.124368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2018.09.29-08.00.28:039][961]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.285960 seconds
+[2018.09.29-08.00.31:068][962]LogSlate: Took 0.034615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.29-08.00.31:144][962]LogSlate: Took 0.071326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.29-08.00.31:261][962]LogSlate: Took 0.110343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.29-08.00.31:301][962]LogSlate: Took 0.037393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-08.00.31:312][962]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.29-08.00.34:918][ 37]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.09.29-08.00.34:923][ 37]LogSlate: Window 'Editor Preferences' being destroyed
+[2018.09.29-08.00.37:221][ 63]LogSlate: Took 0.041021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.29-08.05.01:028][797]LogEditorTransaction: Undo Delete current selection
+[2018.09.29-08.05.20:028][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.05.20:734][334]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes72AA4E6B4FB2F669E4F2B4979E7C2C9B.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.05.51:844][144]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.05.51:886][144]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes7DF56EC949CFBDF01E7FEF91ED3ADF2E.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.05.52:162][151]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.06.02:558][358]LogSlate: Took 0.067457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.29-08.06.18:200][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.06.18:293][825]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes1EF56802488F1699698574BD713CF73C.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.06.18:668][834]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.06.23:794][938]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.06.23:908][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.06.24:089][938]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:06:23 PM)
+[2018.09.29-08.06.24:095][938]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.06.24:168][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.072988s)
+[2018.09.29-08.06.24:169][938]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.06.24:182][938]LogPlayLevel: PIE: World Init took: (0.013328s)
+[2018.09.29-08.06.24:192][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.096929s)
+[2018.09.29-08.06.24:438][938]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.06.24:575][938]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.06.24
+[2018.09.29-08.06.24:590][938]LogWorld: Bringing up level for play took: 0.015963
+[2018.09.29-08.06.24:964][938]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.09.29-08.06.25:133][938]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.545
+[2018.09.29-08.06.27:903][  6]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.28:227][ 18]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.28:526][ 28]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.28:885][ 40]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.29:034][ 45]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.29:182][ 50]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.29:739][ 69]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.30:153][ 83]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.30:777][104]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.31:189][118]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.31:958][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.06.32:089][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.06.32:197][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.06.32:320][145]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.09.29-08.06.41:193][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.06.46:473][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.06.46:516][446]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesF027305241D55BEEA14AA3B78F682E2E.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.06.46:941][457]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.06.50:532][540]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.06.50:574][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.06.50:574][540]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:06:50 PM)
+[2018.09.29-08.06.50:574][540]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.06.50:581][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006802s)
+[2018.09.29-08.06.50:582][540]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.06.50:582][540]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2018.09.29-08.06.50:582][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008131s)
+[2018.09.29-08.06.50:670][540]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.06.50:672][540]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.06.50
+[2018.09.29-08.06.50:672][540]LogWorld: Bringing up level for play took: 0.000842
+[2018.09.29-08.06.50:686][540]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.098
+[2018.09.29-08.06.51:835][575]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.52:377][593]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.53:277][623]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.53:848][642]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.54:295][657]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.54:677][670]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.55:002][681]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.55:268][690]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.55:415][695]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.55:561][700]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.55:708][705]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.55:885][711]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.56:034][716]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.56:180][721]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.56:357][727]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.56:505][732]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.56:652][737]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.56:799][742]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.56:946][747]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.57:124][753]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.57:270][758]LogBlueprintUserMessages: [Descartes_C_0] true
+[2018.09.29-08.06.57:447][764]LogBlueprintUserMessages: [Descartes_C_0] false
+[2018.09.29-08.06.57:685][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.06.57:753][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.06.57:789][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.06.57:835][773]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.09.29-08.06.59:383][801]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.07.08:188][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.07.08:229][  1]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes0DE5BDF6424B710E1FFDFC9906CFDD69.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.08.12:849][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.047
+[2018.09.29-08.08.12:894][  1]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Descartes] ([1] browsable assets)...
+[2018.09.29-08.08.12:894][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Descartes]
+[2018.09.29-08.08.12:894][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.29-08.08.12:975][  1]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes_Auto181561A50483C709577DB679AC04CD5A3.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Autosaves/Game/Blueprints/Descartes_Auto1.uasset'
+[2018.09.29-08.08.12:977][  1]LogFileHelpers: Auto-saving content packages took 0.127
+[2018.09.29-08.11.08:444][961]LogSlate: Took 0.044269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.29-08.11.16:038][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.11.16:092][124]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes4D8C20FF4F80D8F3C02B7C83B6D5572F.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.11.16:392][132]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.12.43:020][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.12.43:119][ 77]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes9DB9C4994374DC326C71E1BBF3F86A14.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.13.27:591][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.13.27:647][ 14]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes990ABB464CB76FB97DD5F0AADEB2E6B4.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.13.28:291][ 30]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.15.26:696][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:696][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:697][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:697][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:698][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:698][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:698][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:698][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:699][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:699][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:703][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:703][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:704][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:704][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:704][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:705][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:705][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:705][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:706][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.15.26:707][780]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ToolBar.Check'. Using FCheckBoxStyle defaults instead.
+[2018.09.29-08.17.24:251][687]LogEditorTransaction: Undo Delete current selection
+[2018.09.29-08.17.40:693][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.17.40:883][ 32]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesCDC6C3FE4007CF65CF902DB60CEB18DF.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.17.41:122][ 39]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.17.44:002][102]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.17.44:085][102]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.17.44:085][102]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:17:44 PM)
+[2018.09.29-08.17.44:085][102]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.17.44:090][102]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004769s)
+[2018.09.29-08.17.44:092][102]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.17.44:092][102]LogPlayLevel: PIE: World Init took: (0.002121s)
+[2018.09.29-08.17.44:092][102]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007203s)
+[2018.09.29-08.17.44:171][102]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.17.44:172][102]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.17.44
+[2018.09.29-08.17.44:173][102]LogWorld: Bringing up level for play took: 0.000962
+[2018.09.29-08.17.44:188][102]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.6
+[2018.09.29-08.17.47:259][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.17.47:331][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.17.47:379][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.17.47:483][200]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.09.29-08.17.48:160][215]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.17.55:614][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.17.55:683][376]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes56326AEA408399D3BC56EB980712682E.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.17.55:897][382]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.17.57:699][419]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.17.57:740][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.17.57:741][419]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:17:57 PM)
+[2018.09.29-08.17.57:741][419]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.17.57:746][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005463s)
+[2018.09.29-08.17.57:749][419]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.17.57:749][419]LogPlayLevel: PIE: World Init took: (0.002787s)
+[2018.09.29-08.17.57:749][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008520s)
+[2018.09.29-08.17.57:839][419]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.17.57:840][419]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.17.57
+[2018.09.29-08.17.57:841][419]LogWorld: Bringing up level for play took: 0.000901
+[2018.09.29-08.17.57:855][419]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.267
+[2018.09.29-08.18.05:390][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.05:456][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.18.05:495][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.05:542][670]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2018.09.29-08.18.06:031][681]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.18.15:985][903]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.18.16:074][903]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes34C88433487253273AB9CF9C4C403AA3.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.18.21:402][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.18.21:466][ 24]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes11BFAC1B4A5243D0D1552B9D46A9F43C.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.18.25:657][128]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.18.25:697][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.18.25:698][128]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:18:25 PM)
+[2018.09.29-08.18.25:698][128]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.18.25:703][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005378s)
+[2018.09.29-08.18.25:706][128]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.18.25:706][128]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2018.09.29-08.18.25:706][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008374s)
+[2018.09.29-08.18.25:789][128]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.18.25:790][128]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.18.25
+[2018.09.29-08.18.25:791][128]LogWorld: Bringing up level for play took: 0.000843
+[2018.09.29-08.18.25:804][128]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.217
+[2018.09.29-08.18.30:540][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.30:607][283]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.18.30:645][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.30:692][284]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.09.29-08.18.31:507][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.18.36:063][398]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.29-08.18.36:835][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.18.36:922][413]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.18.36:955][413]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.18.36:956][413]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:18:36 PM)
+[2018.09.29-08.18.36:956][413]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.18.36:962][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006109s)
+[2018.09.29-08.18.36:963][413]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.18.36:964][413]LogPlayLevel: PIE: World Init took: (0.001445s)
+[2018.09.29-08.18.36:964][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007981s)
+[2018.09.29-08.18.37:049][413]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.18.37:050][413]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 60) at 2018.09.29-10.18.37
+[2018.09.29-08.18.37:050][413]LogWorld: Bringing up level for play took: 0.000866
+[2018.09.29-08.18.37:064][413]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.523
+[2018.09.29-08.18.43:776][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.43:842][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.18.43:943][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.18.44:004][636]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.09.29-08.18.44:504][647]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.19.24:505][294]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.29-08.19.28:250][301]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Descartes
+[2018.09.29-08.19.28:250][301]LogTemp: CWD: D:\Programas\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.29-08.19.28:250][301]LogTemp: Initial Dir: D:\Programas\UE4\UE_4.20
+[2018.09.29-08.19.28:250][301]LogTemp: Env CWD: D:\Programas\UE4\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.29-08.19.28:282][301]LogTemp: BranchPath = PORTATIL/D/Programas/UE4/UE_4.20/Engine/Binaries --- GameBranchPath = PORTATIL/D/Programas/UE4/UE_4.20/Engine/Binaries
+[2018.09.29-08.19.29:678][328]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\lsjos\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.29-08.20.29:100][701]Cmd: TRANSACTION UNDO
+[2018.09.29-08.20.29:100][701]LogEditorTransaction: Undo Add Axis Mapping To Group
+[2018.09.29-08.21.26:836][ 29]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.29-08.21.26:886][ 29]LogSlate: Window 'Project Settings' being destroyed
+[2018.09.29-08.23.15:170][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.23.15:313][425]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes3AB40EDF456A329DCAFCCFBF2480BEC0.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.23.15:721][436]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.23.19:501][519]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.23.19:554][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.23.19:555][519]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:23:19 PM)
+[2018.09.29-08.23.19:555][519]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.23.19:561][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006196s)
+[2018.09.29-08.23.19:563][519]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.23.19:564][519]LogPlayLevel: PIE: World Init took: (0.002243s)
+[2018.09.29-08.23.19:564][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008832s)
+[2018.09.29-08.23.19:652][519]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.23.19:653][519]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.29-10.23.19
+[2018.09.29-08.23.19:654][519]LogWorld: Bringing up level for play took: 0.001081
+[2018.09.29-08.23.19:668][519]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.081
+[2018.09.29-08.23.26:563][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.23.26:631][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.23.26:669][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.23.26:717][745]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.09.29-08.23.27:377][759]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.24.09:371][717]LogEditorTransaction: Undo Delete current selection
+[2018.09.29-08.24.35:821][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.24.35:906][278]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes90543EEC4011D476CDCD25A73663B221.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.24.36:513][292]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.24.38:061][316]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.09.29-08.24.38:750][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.24.38:834][332]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.24.38:875][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.24.38:876][332]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:24:38 PM)
+[2018.09.29-08.24.38:876][332]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.24.38:882][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005664s)
+[2018.09.29-08.24.38:883][332]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.24.38:883][332]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2018.09.29-08.24.38:883][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007315s)
+[2018.09.29-08.24.38:968][332]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.24.38:969][332]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.29-10.24.38
+[2018.09.29-08.24.38:969][332]LogWorld: Bringing up level for play took: 0.000956
+[2018.09.29-08.24.38:984][332]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.603
+[2018.09.29-08.24.44:921][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.24.44:986][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.24.45:024][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.24.45:071][529]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.09.29-08.24.47:195][581]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.29-08.24.51:017][662]LogRenderer: Reallocating scene render targets to support 856x588 Format 10 NumSamples 1 (Frame:1).
+[2018.09.29-08.25.04:751][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.25.04:811][826]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesFE5869024A373C11543FC4803C4E83E7.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.25.05:208][833]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.25.07:629][869]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.25.07:674][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.25.07:675][869]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:25:07 PM)
+[2018.09.29-08.25.07:675][869]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.25.07:681][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005680s)
+[2018.09.29-08.25.07:683][869]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.25.07:683][869]LogPlayLevel: PIE: World Init took: (0.002487s)
+[2018.09.29-08.25.07:684][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008428s)
+[2018.09.29-08.25.07:768][869]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.25.07:769][869]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.29-10.25.07
+[2018.09.29-08.25.07:769][869]LogWorld: Bringing up level for play took: 0.000894
+[2018.09.29-08.25.07:784][869]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.197
+[2018.09.29-08.25.12:419][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.25.12:490][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.25.12:529][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.25.12:578][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.09.29-08.25.18:485][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.26.39:721][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.26.39:906][ 84]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes6E01FD6B44859EE31FB5A1BEF4457FEF.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.26.40:121][ 89]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.26.43:076][133]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.26.43:115][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.26.43:116][133]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:26:43 PM)
+[2018.09.29-08.26.43:117][133]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.26.43:122][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005531s)
+[2018.09.29-08.26.43:123][133]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.26.43:124][133]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2018.09.29-08.26.43:124][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.006885s)
+[2018.09.29-08.26.43:210][133]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.26.43:211][133]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.29-10.26.43
+[2018.09.29-08.26.43:211][133]LogWorld: Bringing up level for play took: 0.000845
+[2018.09.29-08.26.43:225][133]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.363
+[2018.09.29-08.26.52:339][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.26.52:403][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.26.52:443][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.26.52:490][428]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.09.29-08.26.53:975][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.26.54:055][466]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.29-08.26.54:092][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.29-08.26.54:093][466]PIE: New page: PIE session: Untitled_1 (Sep 29, 2018, 12:26:54 PM)
+[2018.09.29-08.26.54:093][466]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.09.29-08.26.54:101][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008111s)
+[2018.09.29-08.26.54:102][466]LogAIModule: Creating AISystem for world Untitled_1
+[2018.09.29-08.26.54:102][466]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2018.09.29-08.26.54:102][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.009480s)
+[2018.09.29-08.26.54:190][466]LogLoad: Game class is 'GameBaseDescartes_C'
+[2018.09.29-08.26.54:191][466]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.09.29-10.26.54
+[2018.09.29-08.26.54:192][466]LogWorld: Bringing up level for play took: 0.000922
+[2018.09.29-08.26.54:206][466]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.619
+[2018.09.29-08.27.14:416][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.27.14:482][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.29-08.27.14:521][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.29-08.27.14:568][128]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.29-08.27.17:659][171]Cmd: TRANSACTION UNDO
+[2018.09.29-08.27.17:659][171]LogEditorTransaction: Undo Edit Gravity Scale
+[2018.09.29-08.27.17:669][171]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.Descartes_C_0.CollisionCylinder) Component already registered.
+[2018.09.29-08.27.19:033][187]Cmd: TRANSACTION UNDO
+[2018.09.29-08.27.19:033][187]LogEditorTransaction: Undo Edit Gravity Scale
+[2018.09.29-08.27.19:123][187]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_0:PersistentLevel.Descartes_C_0.CollisionCylinder) Component already registered.
+[2018.09.29-08.27.19:912][197]Cmd: TRANSACTION UNDO
+[2018.09.29-08.27.19:912][197]LogEditorTransaction: Undo Edit Enable Gravity
+[2018.09.29-08.27.23:472][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.29-08.27.26:886][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.27.27:006][278]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes76AC4C194A3A51754231729B7E43FF76.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.30.46:392][ 79]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-08.30.46:402][ 79]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-08.31.46:377][188]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.09.29-08.31.58:070][466]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Key.Key
+[2018.09.29-08.32.08:506][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.32.08:529][583]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/KeyFE76B0D741844774318FD391053BD1B2.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.33.07:720][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.33.07:751][768]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key674078A84DE9E6A564BCAF97ED04F513.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.33.08:166][778]BlueprintLog: New page: Compile Key
+[2018.09.29-08.34.11:539][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.34.11:639][ 65]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key42D569604181F932772349A642C5F8E0.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.34.12:078][ 76]BlueprintLog: New page: Compile Key
+[2018.09.29-08.34.27:203][386]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Descartes.Descartes
+[2018.09.29-08.35.54:138][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.35.54:219][368]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes8418611C482E4D591D8AB4BCDA1E240A.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.35.54:636][378]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.37.44:294][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.37.44:395][596]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key1E093D094972D58BB77680A93023D24D.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.37.48:583][686]BlueprintLog: New page: Compile Key
+[2018.09.29-08.37.48:650][686]LogBlueprint: Error: [Compiler Key] This blueprint (self) is not a Descartes_C, therefore ' Target ' must have a connection.
+[2018.09.29-08.37.48:668][686]LogBlueprint: Error: [Compiler Key] Variable node  Get Doubting?  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.09.29-08.37.48:899][686]LogBlueprint: Warning: [Compiler Key] [2650.09] Compile of Key failed. 2 Fatal Issue(s) 0 Warning(s) [in 315 ms] (/Game/Blueprints/Key.Key)
+[2018.09.29-08.39.58:695][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.39.58:787][797]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key33006FE84F07B191C93F8495AA1F61CE.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.40.54:128][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.40.54:212][918]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/DescartesDA8E24F64E3F4C1C85F9EE85E5A1DD70.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.40.54:675][929]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.41.25:470][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.41.25:504][515]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/KeyF7E63AC749809453058CDBBF4BDD1703.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.41.25:869][524]BlueprintLog: New page: Compile Key
+[2018.09.29-08.41.25:892][524]LogBlueprint: Error: [Compiler Key] This blueprint (self) is not a Descartes_C, therefore ' Target ' must have a connection.
+[2018.09.29-08.41.26:144][524]LogBlueprint: Warning: [Compiler Key] [2867.34] Compile of Key failed. 1 Fatal Issue(s) 0 Warning(s) [in 274 ms] (/Game/Blueprints/Key.Key)
+[2018.09.29-08.43.00:377][693]BlueprintLog: New page: Compile Key
+[2018.09.29-08.43.00:398][693]LogBlueprint: Error: [Compiler Key] This blueprint (self) is not a Descartes_C, therefore ' Target ' must have a connection.
+[2018.09.29-08.43.00:399][693]LogBlueprint: Error: [Compiler Key] Variable node  Get Doubting?  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.09.29-08.43.00:688][693]LogBlueprint: Warning: [Compiler Key] [2961.88] Compile of Key failed. 2 Fatal Issue(s) 0 Warning(s) [in 310 ms] (/Game/Blueprints/Key.Key)
+[2018.09.29-08.43.01:441][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.43.01:484][708]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key4F6BA28C443FC0DBFDCB84BC72D69F04.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.43.08:745][854]BlueprintLog: New page: Compile Descartes
+[2018.09.29-08.43.08:804][854]LogBlueprint: Error: [Compiler Key] This blueprint (self) is not a Descartes_C, therefore ' Target ' must have a connection.
+[2018.09.29-08.43.08:812][854]LogBlueprint: Error: [Compiler Key] Variable node  Get Doubting?  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.09.29-08.43.08:820][854]LogBlueprint: Warning: [Compiler Key] [2970.01] Compile of Key failed. 2 Fatal Issue(s) 0 Warning(s) [in 57 ms] (/Game/Blueprints/Key.Key)
+[2018.09.29-08.43.50:875][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.43.50:937][739]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes48FDA2C244A42293953538A0EEC964F5.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
+[2018.09.29-08.44.13:978][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.44.14:084][209]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/KeyA8253C034CD1DBFDB3285DA7B770FB42.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.44.43:585][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset" SILENT=true
+[2018.09.29-08.44.43:688][805]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Key21C4631B44E57099B53E39835DD8F110.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Key.uasset'
+[2018.09.29-08.44.44:146][816]BlueprintLog: New page: Compile Key
+[2018.09.29-08.46.25:339][200]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-08.46.25:380][200]LogSlate: Window 'Descartes' being destroyed
+[2018.09.29-08.46.25:529][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.29-08.46.37:396][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Descartes" FILE="C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset" SILENT=true
+[2018.09.29-08.46.37:464][211]LogSavePackage: Moving 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Saved/Descartes3949E834431DB3B64E1D4ABB9657C8C2.tmp' to 'C:/Users/lsjos/Desktop/GameJam/Descartes/Descartes/Content/Blueprints/Descartes.uasset'
