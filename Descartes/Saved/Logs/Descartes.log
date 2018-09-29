@@ -7,8 +7,6 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Descartes
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.348003
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.466574
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
